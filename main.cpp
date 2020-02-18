@@ -1,6 +1,7 @@
 #include <iostream>
 #include "lexer.h"
 #include "automate.h"
+#include "E0.h"
 
 class Lexer;
 
@@ -10,11 +11,14 @@ int main(void) {
    Automate automate(chaine);
    Lexer l = automate.getLexer();
    Symbole * s = l.Consulter();
+   State* e = new E0();
 
    while(*s != FIN) {
       s->Affiche();
       cout << endl;
       l.Avancer();
+      e->transition(automate, s);
+      e = automate.getTopState();
       s = l.Consulter();
    }
 

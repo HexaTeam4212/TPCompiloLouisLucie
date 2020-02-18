@@ -6,7 +6,7 @@
 
 State::State() {}
 
-bool State::transition(Automate &automate, Symbole *s) {}
+//bool State::transition(Automate &automate, Symbole *s) {}
 
 State::State(string name) {
 

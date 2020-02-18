@@ -12,20 +12,18 @@ Automate::Automate(string s) {
 
 void Automate::decalage(Symbole* s, State* e){
     this->symbolstack.push_back(*s);
-    this->statestack.push_back(*e);
-    if (s->isTerminal()) {
-        this->lexer.Avancer();
-    }
+    this->statestack.push_back(e);
 }
 
 void Automate::reduction(int n,Symbole * s) {
     for (int i=0;i<n;i++)
     {
         //delete avant de pop si on travaille avec des pointeurs
-
+        delete(this->statestack.back());
+        symbolstack.pop_back();
         statestack.pop_back();
     }
-    statestack.back().transition(*this,s);
+    statestack.back()->transition(*this,s);
 }
 
 
@@ -45,10 +43,11 @@ void Automate::reduction(int n, bool addOrMult) {
     for (int i=0;i<n;i++)
     {
         //delete avant de pop si on travaille avec des pointeurs
+        delete(statestack.back());
         statestack.pop_back();
     }
 
-    statestack.back().transition(*this, new Symbole(EXPR));
+    statestack.back()->transition(*this, new Symbole(EXPR));
 }
 
 Symbole Automate::popSymbol() {
@@ -59,6 +58,10 @@ Symbole Automate::popSymbol() {
 
 void Automate::popAndDestroySymbol() {
     symbolstack.pop_back();
+}
+
+State* Automate::getTopState() {
+    return this->statestack.back();
 }
 
 const Lexer &Automate::getLexer() const {
@@ -77,7 +80,7 @@ void Automate::printSymbolStack() {
 void Automate::printStateStack() {
     cout << "state stack size : " << this->statestack.size() << endl;
     for (auto it=this->statestack.begin(); it != this->statestack.end(); ++it){
-        it->print();
+        (*it)->print();
         cout << endl;
     }
 }

@@ -19,7 +19,7 @@ public:
     virtual ~State();
     virtual void print() const;
     virtual bool transition(Automate & automate,
-                            Symbole * s);
+                            Symbole * s) = 0;
 protected:
     string name;
 };

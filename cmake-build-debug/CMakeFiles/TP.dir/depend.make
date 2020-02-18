@@ -145,6 +145,7 @@ CMakeFiles/TP.dir/lexer.cpp.o: ../lexer.cpp
 CMakeFiles/TP.dir/lexer.cpp.o: ../lexer.h
 CMakeFiles/TP.dir/lexer.cpp.o: ../symbole.h
 
+CMakeFiles/TP.dir/main.cpp.o: ../E0.h
 CMakeFiles/TP.dir/main.cpp.o: ../automate.h
 CMakeFiles/TP.dir/main.cpp.o: ../expr.h
 CMakeFiles/TP.dir/main.cpp.o: ../exprmult.h

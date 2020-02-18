@@ -23,6 +23,7 @@ public:
     void reduction(int n, bool addOrMult);
     Symbole popSymbol();
     void popAndDestroySymbol();
+    State* getTopState();
     void printSymbolStack();
     void printStateStack();
 
@@ -30,7 +31,7 @@ public:
 
 private:
     vector<Symbole> symbolstack;
-    vector<State> statestack;
+    vector<State*> statestack;
     Lexer lexer;
 };
 
