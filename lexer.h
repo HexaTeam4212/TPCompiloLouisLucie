@@ -11,7 +11,7 @@ class Lexer {
 public:
 
     Lexer();
-    Lexer(string s) : flux(s), tete(0), tampon(nullptr) { }
+    Lexer(string s) : flux(s), tete(0), tampon(nullptr) { } //non utilisé
       ~Lexer() { }
 
       Symbole * Consulter();

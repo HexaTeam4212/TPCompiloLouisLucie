@@ -7,17 +7,16 @@ class Lexer;
 int main(void) {
    string chaine("(1+34)*123");
 
-   Automate automate;
-   //Lexer l = automate.getLexer();
-   Lexer l(chaine);
+   Automate automate(chaine);
+   Lexer l = automate.getLexer();
 
    Symbole * s = l.Consulter();
-   s->Affiche();
-//   while(int(*s) != FIN) {
-//      s->Affiche();
-//      cout<<endl;
-//      l.Avancer();
-//   }
+   while(*s != FIN) {
+      s->Affiche();
+      cout << endl;
+      l.Avancer();
+      s = l.Consulter();
+   }
    return 0;
 }
 

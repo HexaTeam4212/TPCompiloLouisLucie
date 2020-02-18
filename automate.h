@@ -16,14 +16,14 @@ using namespace std;
 
 class Automate {
 public:
-    //Automate(string s);
+    Automate(string s);
     void decalage(Symbole* s, State* e);
     void reduction(int n, Symbole* s);
     void reduction(int n, bool addOrMult);
     Symbole popSymbol();
     void popAndDestroySymbol();
 
-    //const Lexer &getLexer() const;
+    const Lexer &getLexer() const;
 
 private:
     vector<Symbole> symbolstack;
