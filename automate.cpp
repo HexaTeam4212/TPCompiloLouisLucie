@@ -4,11 +4,11 @@
 
 #include "automate.h"
 
-Automate::Automate(string s) {
-    this->lexer.setFlux(s);
-    this->lexer.setTampon(nullptr);
-    this->lexer.setTete(0);
-}
+//Automate::Automate(string s) {
+//    this->lexer.setFlux(s);
+//    this->lexer.setTampon(nullptr);
+//    this->lexer.setTete(0);
+//}
 
 void Automate::decalage(Symbole* s, State* e){
     this->symbolstack.push_back(*s);
@@ -61,6 +61,6 @@ void Automate::popAndDestroySymbol() {
     symbolstack.pop_back();
 }
 
-const Lexer &Automate::getLexer() const {
-    return lexer;
-}
+//const Lexer &Automate::getLexer() const {
+//    return lexer;
+//}

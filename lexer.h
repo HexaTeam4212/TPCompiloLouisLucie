@@ -1,12 +1,16 @@
-#pragma once
+#ifndef TP_LEXER_H
+#define TP_LEXER_H
 
 #include <string>
+#include <iostream>
+
 #include "symbole.h"
 using namespace std;
 
 class Lexer {
 public:
 
+    Lexer();
     Lexer(string s) : flux(s), tete(0), tampon(nullptr) { }
       ~Lexer() { }
 
@@ -30,3 +34,5 @@ protected:
       int tete;
       Symbole * tampon;
 };
+
+#endif

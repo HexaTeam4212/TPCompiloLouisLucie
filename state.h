@@ -5,6 +5,8 @@
 #ifndef TP_STATE_H
 #define TP_STATE_H
 
+#include <string>
+#include "symbole.h"
 using namespace std;
 
 class Automate;
@@ -16,7 +18,7 @@ public:
     virtual ~State();
     void print() const;
     virtual bool transition(Automate & automate,
-                            Symbole * s) = 0;
+                            Symbole * s);
 protected:
     string name;
 };

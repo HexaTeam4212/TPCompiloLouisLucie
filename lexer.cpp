@@ -1,13 +1,13 @@
 #include "lexer.h"
 
+Lexer::Lexer() {}
+
 Symbole * Lexer::Consulter() {
    if (!tampon) {
-
       if (tete==flux.length())
          tampon = new Symbole(FIN);
       else
       {
-
          switch (flux[tete]) {
             case '(':
                tampon = new Symbole(OPENPAR);
@@ -42,6 +42,8 @@ Symbole * Lexer::Consulter() {
          }
       }
    }
+   else
+       cout << "tampon null" << endl;
    return tampon;
 }
 

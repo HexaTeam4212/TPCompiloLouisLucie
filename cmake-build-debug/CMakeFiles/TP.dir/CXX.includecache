@@ -6,51 +6,57 @@
 
 #IncludeRegexTransform: 
 
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/automate.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/automate.h
 symbole.h
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/symbole.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/symbole.h
 state.h
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/state.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/state.h
 lexer.h
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/lexer.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/lexer.h
 vector
 -
 exprplus.h
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/exprplus.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/exprplus.h
 exprmult.h
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/exprmult.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/exprmult.h
 
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/expr.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/expr.h
 symbole.h
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/symbole.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/symbole.h
 
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/exprmult.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/exprmult.h
 expr.h
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/expr.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/expr.h
 symbole.h
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/symbole.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/symbole.h
 
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/exprplus.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/exprplus.h
 symbole.h
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/symbole.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/symbole.h
 
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/lexer.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/lexer.h
 string
 -
+iostream
+-
 symbole.h
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/symbole.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/symbole.h
 
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/main.cpp
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/main.cpp
 iostream
 -
 lexer.h
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/lexer.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/lexer.h
 automate.h
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/automate.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/automate.h
 
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/state.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/state.h
+string
+-
+symbole.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/symbole.h
 
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/symbole.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/symbole.h
 string
 -
 
