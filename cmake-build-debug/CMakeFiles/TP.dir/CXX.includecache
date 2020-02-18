@@ -1,0 +1,56 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/automate.h
+symbole.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/symbole.h
+state.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/state.h
+lexer.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/lexer.h
+vector
+-
+exprplus.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/exprplus.h
+exprmult.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/exprmult.h
+
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/expr.h
+symbole.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/symbole.h
+
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/exprmult.h
+expr.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/expr.h
+symbole.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/symbole.h
+
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/exprplus.h
+symbole.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/symbole.h
+
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/lexer.h
+string
+-
+symbole.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/symbole.h
+
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/main.cpp
+iostream
+-
+lexer.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/lexer.h
+automate.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/automate.h
+
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/state.h
+
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/symbole.h
+string
+-
+
