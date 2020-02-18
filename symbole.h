@@ -23,8 +23,11 @@ class Symbole {
 class Entier : public Symbole {
    public:
       Entier(int v) : Symbole(INT), valeur(v) { }
+
+      int getValeur() const;
+
       ~Entier() { }
-      virtual void Affiche();
+      void Affiche() override;
    protected:
       int valeur;
 };

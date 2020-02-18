@@ -4,8 +4,12 @@
 
 #include "exprplus.h"
 
-ExprPlus::ExprPlus(const Symbole &s1, const Symbole &s2) : s1(s1), s2(s2) {}
+//ExprPlus::ExprPlus(const Entier &s1, const Entier &s2){
+//    this->s1 = s1;
+//    this->s2 = s2;
+//    Symbole(EXPR);
+//}
 
 int ExprPlus::eval() {
-    return 0;
+    return this->s1.getValeur() + this->s2.getValeur();
 }

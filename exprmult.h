@@ -11,7 +11,7 @@
 class ExprMult : public Expr{
 public:
 
-    ExprMult(const Symbole &s1, const Symbole &s2);
+   // ExprMult(const Symbole &s1, const Symbole &s2);
 
 private:
     Symbole s1;

@@ -11,7 +11,7 @@ Automate::Automate(string s) {
 }
 
 void Automate::decalage(Symbole* s, State* e){
-    this->symbolstack.push_back(*s);
+    this->symbolstack.push_back(s);
     this->statestack.push_back(e);
 }
 
@@ -29,17 +29,10 @@ void Automate::reduction(int n,Symbole * s) {
 
 
 void Automate::reduction(int n, bool addOrMult) {
-    Symbole s1 = this->popSymbol();
+    Symbole* s1 = this->popSymbol();
     this->popAndDestroySymbol();
-    Symbole s2 = this->popSymbol();
-    if (addOrMult){
-        ExprPlus exprPlus (s2, s1);
-        //stocker dans l'arbre
-    }
-    else {
-        ExprMult exprMult (s2, s1);
-        //stocker dans l'arbre
-    }
+    Symbole* s2 = this->popSymbol();
+
 
     for (int i=0;i<n;i++)
     {
@@ -47,12 +40,22 @@ void Automate::reduction(int n, bool addOrMult) {
         delete(statestack.back());
         statestack.pop_back();
     }
-
-    statestack.back()->transition(*this, new Symbole(EXPR));
+    if (addOrMult){
+        //ExprPlus* exprPlus = new ExprPlus ((Entier)s2, (Entier)s1);
+        //stocker dans l'arbre
+        int sum = ((Entier*)s1)->getValeur() + ((Entier*)s2)->getValeur();
+        statestack.back()->transition(*this, new Expr(sum));
+    }
+    else {
+        //ExprMult exprMult (s2, s1);
+        //stocker dans l'arbre
+        int product = ((Entier*)s1)->getValeur() * ((Entier*)s2)->getValeur();
+        statestack.back()->transition(*this, new Expr(product));
+    }
 }
 
-Symbole Automate::popSymbol() {
-    Symbole lastSymbol = symbolstack.back();
+Symbole* Automate::popSymbol() {
+    Symbole* lastSymbol = symbolstack.back();
     symbolstack.pop_back();
     return lastSymbol;
 }
@@ -75,7 +78,7 @@ const Lexer &Automate::getLexer() const {
 
 void Automate::printSymbolStack() {
     cout << "symbol stack size : " << this->symbolstack.size() << endl;
-    for (auto it=this->symbolstack.begin(); it != this->symbolstack.end(); ++it){
+    for (auto & it : this->symbolstack){
         it->Affiche();
         cout << endl;
     }
@@ -84,8 +87,8 @@ void Automate::printSymbolStack() {
 
 void Automate::printStateStack() {
     cout << "state stack size : " << this->statestack.size() << endl;
-    for (auto it=this->statestack.begin(); it != this->statestack.end(); ++it){
-        (*it)->print();
+    for (auto & it : this->statestack){
+        it->print();
         cout << endl;
     }
 }

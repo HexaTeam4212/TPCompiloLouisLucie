@@ -21,7 +21,7 @@ public:
     void decalage(Symbole* s, State* e);
     void reduction(int n, Symbole* s);
     void reduction(int n, bool addOrMult);
-    Symbole popSymbol();
+    Symbole* popSymbol();
     void popAndDestroySymbol();
     void pushState(State* s);
     State* getTopState();
@@ -32,7 +32,7 @@ public:
     const Lexer &getLexer() const;
 
 private:
-    vector<Symbole> symbolstack;
+    vector<Symbole*> symbolstack;
     vector<State*> statestack;
     Lexer lexer;
 };
