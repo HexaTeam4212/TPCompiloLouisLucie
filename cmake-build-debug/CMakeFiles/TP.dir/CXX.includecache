@@ -141,6 +141,8 @@ lexer.h
 /Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/lexer.h
 vector
 -
+iostream
+-
 exprplus.h
 /Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/exprplus.h
 exprmult.h
@@ -168,16 +170,10 @@ iostream
 symbole.h
 /Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/symbole.h
 
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/main.cpp
-iostream
--
-lexer.h
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/lexer.h
-automate.h
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/automate.h
-
 /Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/state.h
 string
+-
+iostream
 -
 symbole.h
 /Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/symbole.h

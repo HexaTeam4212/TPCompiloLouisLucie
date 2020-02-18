@@ -64,3 +64,20 @@ void Automate::popAndDestroySymbol() {
 const Lexer &Automate::getLexer() const {
     return lexer;
 }
+
+void Automate::printSymbolStack() {
+    cout << "symbol stack size : " << this->symbolstack.size() << endl;
+    for (auto it=this->symbolstack.begin(); it != this->symbolstack.end(); ++it){
+        it->Affiche();
+        cout << endl;
+    }
+
+}
+
+void Automate::printStateStack() {
+    cout << "state stack size : " << this->statestack.size() << endl;
+    for (auto it=this->statestack.begin(); it != this->statestack.end(); ++it){
+        it->print();
+        cout << endl;
+    }
+}

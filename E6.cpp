@@ -21,3 +21,7 @@ bool E6::transition(Automate &automate, Symbole *s){
     }
     return false;
 }
+
+void E6::print() const {
+    cout << 6 << endl;
+}

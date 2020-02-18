@@ -21,3 +21,8 @@ bool E0::transition(Automate &automate, Symbole *s){
     }
     return false;
 }
+
+void E0::print() const {
+    cout << 0 << endl;
+}
+

@@ -25,3 +25,7 @@ bool E9::transition(Automate &automate, Symbole *s){
     }
     return false;
 }
+
+void E9::print() const {
+    cout << 9 << endl;
+}

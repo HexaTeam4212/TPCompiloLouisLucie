@@ -21,3 +21,7 @@ bool E4::transition(Automate &automate, Symbole *s){
     }
     return false;
 }
+
+void E4::print() const {
+    cout << 4 << endl;
+}

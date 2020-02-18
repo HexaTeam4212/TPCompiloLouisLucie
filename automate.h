@@ -9,6 +9,7 @@
 #include "state.h"
 #include "lexer.h"
 #include <vector>
+#include <iostream>
 #include "exprplus.h"
 #include "exprmult.h"
 
@@ -22,6 +23,8 @@ public:
     void reduction(int n, bool addOrMult);
     Symbole popSymbol();
     void popAndDestroySymbol();
+    void printSymbolStack();
+    void printStateStack();
 
     const Lexer &getLexer() const;
 

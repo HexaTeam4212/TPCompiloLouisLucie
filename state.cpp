@@ -17,5 +17,5 @@ State::~State() {
 }
 
 void State::print() const {
-
+    cout << "not a state" << endl;
 }

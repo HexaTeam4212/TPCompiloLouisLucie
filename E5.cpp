@@ -21,3 +21,7 @@ bool E5::transition(Automate &automate, Symbole *s){
     }
     return false;
 }
+
+void E5::print() const {
+    cout << 5 << endl;
+}

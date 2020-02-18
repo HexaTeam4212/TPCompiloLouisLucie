@@ -6,6 +6,7 @@
 #define TP_STATE_H
 
 #include <string>
+#include <iostream>
 #include "symbole.h"
 using namespace std;
 
@@ -14,9 +15,9 @@ class Automate;
 class State {
 public:
     State();
-    State(string name);
+    explicit State(string name);
     virtual ~State();
-    void print() const;
+    virtual void print() const;
     virtual bool transition(Automate & automate,
                             Symbole * s);
 protected:

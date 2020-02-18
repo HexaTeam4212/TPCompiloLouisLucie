@@ -9,7 +9,10 @@
 using namespace std;
 
 class E1 : public State {
-    bool transition(Automate &automate, Symbole *s);
+
+public:
+    void print() const override;
+    bool transition(Automate &automate, Symbole *s) override;
 };
 
 

@@ -22,3 +22,7 @@ bool E3::transition(Automate &automate, Symbole *s){
     }
     return false;
 }
+
+void E3::print() const {
+    cout << 3 << endl;
+}

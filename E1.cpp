@@ -20,3 +20,7 @@ bool E1::transition(Automate &automate, Symbole *s){
     }
     return false;
 }
+
+void E1::print() const {
+    cout << 1 << endl;
+}
