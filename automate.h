@@ -23,9 +23,11 @@ public:
     void reduction(int n, bool addOrMult);
     Symbole popSymbol();
     void popAndDestroySymbol();
+    void pushState(State* s);
     State* getTopState();
     void printSymbolStack();
     void printStateStack();
+
 
     const Lexer &getLexer() const;
 

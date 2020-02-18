@@ -16,6 +16,7 @@ void Automate::decalage(Symbole* s, State* e){
 }
 
 void Automate::reduction(int n,Symbole * s) {
+    //this->printStateStack();
     for (int i=0;i<n;i++)
     {
         //delete avant de pop si on travaille avec des pointeurs
@@ -58,6 +59,10 @@ Symbole Automate::popSymbol() {
 
 void Automate::popAndDestroySymbol() {
     symbolstack.pop_back();
+}
+
+void Automate::pushState(State *s) {
+    this->statestack.push_back(s);
 }
 
 State* Automate::getTopState() {

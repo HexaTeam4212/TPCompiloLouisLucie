@@ -12,6 +12,7 @@ int main(void) {
    Lexer l = automate.getLexer();
    Symbole * s = l.Consulter();
    State* e = new E0();
+   automate.pushState(e);
 
    while(*s != FIN) {
       s->Affiche();
