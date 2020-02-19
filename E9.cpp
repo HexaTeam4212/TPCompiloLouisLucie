@@ -9,6 +9,7 @@ bool E9::transition(Automate &automate, Symbole *s){
         case PLUS:
         {
             automate.reduction(3, new Symbole(EXPR));
+//            automate.reduction(3, true);
             break;
         }
         case MULT:
@@ -23,7 +24,7 @@ bool E9::transition(Automate &automate, Symbole *s){
             break;
         }
     }
-    return false;
+    return true;
 }
 
 void E9::print() const {

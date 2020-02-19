@@ -42,8 +42,8 @@ Symbole * Lexer::Consulter() {
          }
       }
    }
-   else
-       cout << "tampon null" << endl;
+//   else
+//       cout << "tampon null" << endl;
    return tampon;
 }
 

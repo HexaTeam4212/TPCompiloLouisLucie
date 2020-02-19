@@ -12,7 +12,7 @@ bool E0::transition(Automate &automate, Symbole *s){
         case EXPR:
             automate.decalage(s, new E1);
             break;
-        case  OPENPAR:
+        case OPENPAR:
             automate.decalage(s, new E2);
             break;
         case INT:

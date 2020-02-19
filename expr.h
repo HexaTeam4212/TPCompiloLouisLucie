@@ -16,7 +16,7 @@ public:
 
     void Affiche() override;
 
-    int getVal() const;
+    int getValeur() override;
 
     void setVal(int val);
 //    virtual int eval();

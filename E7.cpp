@@ -16,7 +16,7 @@ bool E7::transition(Automate &automate, Symbole *s){
         }
         case MULT:
             automate.decalage(s, new E5);
-            break;
+            return false;
         case CLOSEPAR: {
             automate.reduction(3, true);
             break;
@@ -26,7 +26,7 @@ bool E7::transition(Automate &automate, Symbole *s){
             break;
         }
     }
-    return false;
+    return true;
 }
 
 void E7::print() const {

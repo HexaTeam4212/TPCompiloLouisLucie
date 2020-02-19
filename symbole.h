@@ -14,6 +14,7 @@ class Symbole {
       virtual ~Symbole() { }
       operator int() const { return ident; }
       virtual void Affiche();
+      virtual int getValeur();
       bool isTerminal();
 
    protected:
@@ -24,7 +25,7 @@ class Entier : public Symbole {
    public:
       Entier(int v) : Symbole(INT), valeur(v) { }
 
-      int getValeur() const;
+      int getValeur() override;
 
       ~Entier() { }
       void Affiche() override;

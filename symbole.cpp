@@ -16,12 +16,16 @@ bool Symbole::isTerminal() {
         return true;
 }
 
+int Symbole::getValeur() {
+    return -1;
+}
+
 void Entier::Affiche() {
    Symbole::Affiche();
    cout<<"("<<valeur<<")";
 }
 
-int Entier::getValeur() const {
+int Entier::getValeur() {
     return valeur;
 }
 

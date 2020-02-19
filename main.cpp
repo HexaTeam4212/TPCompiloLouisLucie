@@ -6,28 +6,41 @@
 class Lexer;
 
 int main(void) {
-   string chaine("(1+34)*123"); // TODO: remplacer par user input
+    string chaine("(1+34)*123"); // TODO: remplacer par user input
+    //string chaine("1+2"); // TODO: remplacer par user input
 
-   Automate automate(chaine);
-   Lexer l = automate.getLexer();
-   Symbole * s = l.Consulter();
-   State* e = new E0();
-   automate.pushState(e);
+    Automate automate(chaine);
+    Lexer l = automate.getLexer();
+    Symbole *s = l.Consulter();
+    State *e = new E0();
+    automate.pushState(e);
 
-   while(*s != FIN) {
-      s->Affiche();
-      cout << endl;
-      l.Avancer();
-      e->transition(automate, s);
-      e = automate.getTopState();
-      s = l.Consulter();
-   }
+    cout << "top state ";
+    automate.getTopState()->print();
+    cout << endl;
 
-   cout << "state stack" << endl;
-   automate.printStateStack();
-   cout << "symbol stack" << endl;
-   automate.printSymbolStack();
+    while (!automate.isAccepter()) {
 
-   return 0;
+        //s->Affiche();
+        //e->print();
+        cout << endl;
+       if (!e->transition(automate, s))
+           l.Avancer();
+        e = automate.getTopState();
+        cout << "top symbol ";
+        automate.getTopSymbole()->Affiche();
+        cout << endl;
+        cout << "top state ";
+        automate.getTopState()->print();
+        cout << endl;
+        s = l.Consulter();
+    }
+
+    cout << "state stack" << endl;
+    automate.printStateStack();
+    cout << "symbol stack" << endl;
+    automate.printSymbolStack();
+
+    return 0;
 }
 

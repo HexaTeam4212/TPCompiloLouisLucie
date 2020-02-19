@@ -24,7 +24,7 @@ bool E8::transition(Automate &automate, Symbole *s){
             break;
         }
     }
-    return false;
+    return true;
 }
 
 void E8::print() const {

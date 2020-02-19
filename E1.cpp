@@ -16,7 +16,8 @@ bool E1::transition(Automate &automate, Symbole *s){
             automate.decalage(s, new E5);
             break;
         case FIN:
-            return true;
+            automate.setAccepter(true);
+            break;
     }
     return false;
 }

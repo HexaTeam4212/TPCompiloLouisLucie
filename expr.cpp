@@ -4,7 +4,7 @@
 
 #include "expr.h"
 
-int Expr::getVal() const {
+int Expr::getValeur() {
     return val;
 }
 

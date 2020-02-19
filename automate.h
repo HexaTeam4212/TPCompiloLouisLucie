@@ -25,8 +25,13 @@ public:
     void popAndDestroySymbol();
     void pushState(State* s);
     State* getTopState();
+    Symbole* getTopSymbole();
     void printSymbolStack();
     void printStateStack();
+
+    bool isAccepter() const;
+
+    void setAccepter(bool accepter);
 
 
     const Lexer &getLexer() const;
@@ -35,6 +40,7 @@ private:
     vector<Symbole*> symbolstack;
     vector<State*> statestack;
     Lexer lexer;
+    bool accepter;
 };
 
 

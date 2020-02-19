@@ -8,19 +8,19 @@
 bool E3::transition(Automate &automate, Symbole *s){
     switch(*s){
         case PLUS:
-            automate.reduction(1, new Symbole(EXPR));
+            automate.reduction(1, s);
             break;
         case MULT:
-            automate.reduction(1, new Symbole(EXPR));
+            automate.reduction(1, s);
             break;
         case CLOSEPAR:
-            automate.reduction(1, new Symbole(EXPR));
+            automate.reduction(1, s);
             break;
         case FIN:
-            automate.reduction(1, new Symbole(EXPR));
+            automate.reduction(1, s);
             break;
     }
-    return false;
+    return true;
 }
 
 void E3::print() const {
