@@ -17,10 +17,8 @@ void Automate::decalage(Symbole* s, State* e){
 }
 
 void Automate::reduction(int n,Symbole * s) {
-    //this->printStateStack();
     for (int i=0;i<n;i++)
     {
-        //delete avant de pop si on travaille avec des pointeurs
         delete(this->symbolstack.back());
         symbolstack.pop_back();
         delete(this->statestack.back());
@@ -34,29 +32,24 @@ void Automate::reduction(int n, bool addOrMult) {
     Symbole* s1 = this->popSymbol();
     this->popAndDestroySymbol();
     Symbole* s2 = this->popSymbol();
-//    s1->Affiche();
-//    s2->Affiche();
 
 
     for (int i=0;i<n;i++)
     {
-        //delete avant de pop si on travaille avec des pointeurs
         delete(statestack.back());
         statestack.pop_back();
     }
     if (addOrMult){
-        //ExprPlus* exprPlus = new ExprPlus ((Entier)s2, (Entier)s1);
         //stocker dans l'arbre
-        int sum = (s1)->getValeur() + (s2)->getValeur();
+        int s1val = (s1)->getValeur();
+        int s2val = (s2)->getValeur();
+        int sum = s1val + s2val;
 
-        //this->symbolstack.push_back(new Symbole(EXPR));
         statestack.back()->transition(*this, new Expr(sum));
     }
     else {
-        //ExprMult exprMult (s2, s1);
         //stocker dans l'arbre
         int product = (s1)->getValeur() * (s2)->getValeur();
-        //this->symbolstack.push_back(new Symbole(EXPR));
         statestack.back()->transition(*this, new Expr(product));
     }
 }
@@ -94,7 +87,6 @@ void Automate::printSymbolStack() {
         it->Affiche();
         cout << endl;
     }
-
 }
 
 void Automate::printStateStack() {
