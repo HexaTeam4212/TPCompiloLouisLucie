@@ -15,19 +15,39 @@ void Automate::decalage(Symbole* s, State* e){
     this->symbolstack.push_back(s);
     this->statestack.push_back(e);
 }
-
-void Automate::reduction(int n,Symbole * s) {
-    int val = -1000;
-    //r5
-    if (n==1) {
-        val = symbolstack.back()->getValeur();
+void Automate::reduction(int n, int reductionNum){
+    if (reductionNum == 2 || reductionNum == 3){
+        Symbole* s1 = this->popSymbol();
+        this->popAndDestroySymbol();
+        Symbole* s2 = this->popSymbol();
+        for (int i=0;i<n;i++)
+        {
+            delete(statestack.back());
+            statestack.pop_back();
+        }
+        if (reductionNum == 2){
+            //stocker dans l'arbre
+            int s1val = (s1)->getValeur();
+            int s2val = (s2)->getValeur();
+            int sum = s1val + s2val;
+            statestack.back()->transition(*this, new Expr(sum));
+        }
+        else if (reductionNum == 3) {
+            //stocker dans l'arbre
+            int product = (s1)->getValeur() * (s2)->getValeur();
+            statestack.back()->transition(*this, new Expr(product));
+        }
+    }
+    else if (reductionNum == 5){
+        int val = symbolstack.back()->getValeur();
         delete(this->symbolstack.back());
         symbolstack.pop_back();
         delete(this->statestack.back());
         statestack.pop_back();
+        statestack.back()->transition(*this, new Expr(val));
     }
-    //r4
-    else if (n==3) {
+    else if (reductionNum == 4) {
+        int val = -1;
         for (int i = 0; i < n; i++) {
             if (i == 1)
                 val = symbolstack.back()->getValeur();
@@ -36,35 +56,7 @@ void Automate::reduction(int n,Symbole * s) {
             delete (this->statestack.back());
             statestack.pop_back();
         }
-    }
-
-    statestack.back()->transition(*this, new Expr(val));
-}
-
-
-void Automate::reduction(int n, bool addOrMult) {
-    //r2 ou r3
-    Symbole* s1 = this->popSymbol();
-    Symbole* s2 = this->popSymbol();
-
-
-    for (int i=0;i<n;i++)
-    {
-        delete(statestack.back());
-        statestack.pop_back();
-    }
-    if (addOrMult){
-        //stocker dans l'arbre
-        int s1val = (s1)->getValeur();
-        int s2val = (s2)->getValeur();
-        int sum = s1val + s2val;
-
-        statestack.back()->transition(*this, new Expr(sum));
-    }
-    else {
-        //stocker dans l'arbre
-        int product = (s1)->getValeur() * (s2)->getValeur();
-        statestack.back()->transition(*this, new Expr(product));
+        statestack.back()->transition(*this, new Expr(val));
     }
 }
 

@@ -6,11 +6,49 @@
 
 #IncludeRegexTransform: 
 
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E0.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E3.cpp
+E3.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E3.h
+
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E3.h
 automate.h
 /Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/automate.h
-state.h
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/state.h
+
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E5.h
+automate.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/automate.h
+
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E7.cpp
+E7.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E7.h
+E5.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E5.h
+expr.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/expr.h
+exprplus.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/exprplus.h
+
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E7.h
+automate.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/automate.h
+
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E8.cpp
+E8.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E8.h
+E5.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E5.h
+
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E8.h
+automate.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/automate.h
+
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E9.cpp
+E9.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E9.h
+
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E9.h
+automate.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/automate.h
 
 /Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/automate.cpp
 automate.h
@@ -57,16 +95,6 @@ iostream
 -
 symbole.h
 /Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/symbole.h
-
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/main.cpp
-iostream
--
-lexer.h
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/lexer.h
-automate.h
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/automate.h
-E0.h
-/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E0.h
 
 /Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/state.h
 string

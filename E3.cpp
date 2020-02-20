@@ -8,16 +8,16 @@
 bool E3::transition(Automate &automate, Symbole *s){
     switch(*s){
         case PLUS:
-            automate.reduction(1, s);
+            automate.reduction(1, 5);
             break;
         case MULT:
-            automate.reduction(1, s);
+            automate.reduction(1, 5);
             break;
         case CLOSEPAR:
-            automate.reduction(1, s);
+            automate.reduction(1, 5);
             break;
         case FIN:
-            automate.reduction(1, s);
+            automate.reduction(1, 5);
             break;
     }
     return true;

@@ -11,18 +11,18 @@ bool E7::transition(Automate &automate, Symbole *s){
     switch(*s){
         case PLUS:
         {
-            automate.reduction(3, true);
+            automate.reduction(3, 2);
             break;
         }
         case MULT:
             automate.decalage(s, new E5);
             return false;
         case CLOSEPAR: {
-            automate.reduction(3, true);
+            automate.reduction(3, 2);
             break;
         }
         case FIN: {
-            automate.reduction(3, true);
+            automate.reduction(3, 2);
             break;
         }
     }

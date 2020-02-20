@@ -19,8 +19,7 @@ class Automate {
 public:
     Automate(string s);
     void decalage(Symbole* s, State* e);
-    void reduction(int n, Symbole* s);
-    void reduction(int n, bool addOrMult);
+    void reduction(int n, int reductionNum);
     Symbole* popSymbol();
     void popAndDestroySymbol();
     void pushState(State* s);
