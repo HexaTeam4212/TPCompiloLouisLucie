@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E0.h
+automate.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/automate.h
+state.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/state.h
+
 /Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/automate.cpp
 automate.h
 /Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/automate.h
@@ -51,6 +57,16 @@ iostream
 -
 symbole.h
 /Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/symbole.h
+
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/main.cpp
+iostream
+-
+lexer.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/lexer.h
+automate.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/automate.h
+E0.h
+/Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/E0.h
 
 /Users/lung/Documents/INSA 4A/GrammaireLangages/TP/TPCompiloLouisLucie/state.h
 string

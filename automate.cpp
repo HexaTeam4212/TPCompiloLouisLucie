@@ -17,20 +17,34 @@ void Automate::decalage(Symbole* s, State* e){
 }
 
 void Automate::reduction(int n,Symbole * s) {
-    for (int i=0;i<n;i++)
-    {
+    int val = -1000;
+    //r5
+    if (n==1) {
+        val = symbolstack.back()->getValeur();
         delete(this->symbolstack.back());
         symbolstack.pop_back();
         delete(this->statestack.back());
         statestack.pop_back();
     }
-    statestack.back()->transition(*this, new Symbole(EXPR));
+    //r4
+    else if (n==3) {
+        for (int i = 0; i < n; i++) {
+            if (i == 1)
+                val = symbolstack.back()->getValeur();
+            delete (this->symbolstack.back());
+            symbolstack.pop_back();
+            delete (this->statestack.back());
+            statestack.pop_back();
+        }
+    }
+
+    statestack.back()->transition(*this, new Expr(val));
 }
 
 
 void Automate::reduction(int n, bool addOrMult) {
+    //r2 ou r3
     Symbole* s1 = this->popSymbol();
-    this->popAndDestroySymbol();
     Symbole* s2 = this->popSymbol();
 
 
@@ -61,7 +75,7 @@ Symbole* Automate::popSymbol() {
 }
 
 void Automate::popAndDestroySymbol() {
-    //delete ?
+    delete(this->symbolstack.back());
     symbolstack.pop_back();
 }
 

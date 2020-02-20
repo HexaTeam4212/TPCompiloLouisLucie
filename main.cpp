@@ -6,8 +6,8 @@
 class Lexer;
 
 int main(void) {
-//    string chaine("(1+34)*123"); // TODO: remplacer par user input
-    string chaine("1+2"); // TODO: remplacer par user input
+    string chaine("(1+34)*123"); // TODO: remplacer par user input
+//    string chaine("1+2"); // TODO: remplacer par user input
 
     Automate automate(chaine);
     Lexer l = automate.getLexer();
