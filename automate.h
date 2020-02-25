@@ -24,6 +24,7 @@ public:
     void popAndDestroySymbol();
     void pushState(State* s);
     State* getTopState();
+    int parcours(Expression* e);
     Symbole* getTopSymbole();
     void printSymbolStack();
     void printStateStack();
@@ -38,6 +39,7 @@ public:
 private:
     vector<Symbole*> symbolstack;
     vector<State*> statestack;
+    Expression* expr_arbre;
     Lexer lexer;
     bool accepter;
 };

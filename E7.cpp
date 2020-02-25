@@ -4,7 +4,6 @@
 
 #include "E7.h"
 #include "E5.h"
-#include "expr.h"
 #include "exprplus.h"
 
 bool E7::transition(Automate &automate, Symbole *s){

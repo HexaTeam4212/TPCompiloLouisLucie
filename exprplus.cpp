@@ -10,6 +10,11 @@
 //    Symbole(EXPR);
 //}
 
-int ExprPlus::eval() {
-    return this->s1.getValeur() + this->s2.getValeur();
+int ExprPlus::getval() {
+    return(expr_gauche->getval()+expr_droit->getval());
+}
+
+void ExprPlus::Affiche() {
+    Symbole::Affiche();
+    cout << " plus " << endl ;
 }

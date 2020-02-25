@@ -3,6 +3,8 @@
 //
 
 #include "automate.h"
+#include "ExprVal.h"
+#include <iostream>
 
 Automate::Automate(string s) {
     this->lexer.setFlux(s);
@@ -18,8 +20,17 @@ void Automate::decalage(Symbole* s, State* e){
 void Automate::reduction(int n, int reductionNum){
     if (reductionNum == 2 || reductionNum == 3){
         Symbole* s1 = this->popSymbol();
+        int s1val = ((Expression *)s1)->getval();
+        cout<< "s1 get = " << s1val << endl;
+        s1->Affiche();
+        ExprVal* e1=new ExprVal(s1val);
         this->popAndDestroySymbol();
         Symbole* s2 = this->popSymbol();
+        int s2val = ((Expression *)s2)->getval();
+        cout<< "s2 get = " << s2val;
+        s2->Affiche();
+        ExprVal* e2=new ExprVal(s2val);
+
         for (int i=0;i<n;i++)
         {
             delete(statestack.back());
@@ -27,15 +38,23 @@ void Automate::reduction(int n, int reductionNum){
         }
         if (reductionNum == 2){
             //stocker dans l'arbre
+            cout << "r2 : " << endl;
             int s1val = (s1)->getValeur();
             int s2val = (s2)->getValeur();
             int sum = s1val + s2val;
-            statestack.back()->transition(*this, new Expr(sum));
+            statestack.back()->transition(*this, new ExprPlus(e1,e2));
+            //ExprPlus* E=new ExprPlus((Expression*) expr_arbre,(Expression*) s2);
+            //expr_arbre=E;
+            cout << "r2 fin: " << endl;
         }
         else if (reductionNum == 3) {
+            cout << "r3 : " << endl;
             //stocker dans l'arbre
             int product = (s1)->getValeur() * (s2)->getValeur();
-            statestack.back()->transition(*this, new Expr(product));
+            statestack.back()->transition(*this, new ExprMult(e1,e2));
+            //ExprMult* E=new ExprMult((Expression*) expr_arbre,(Expression*) s2);
+           // expr_arbre=E;
+            cout << "r3 fin : " << endl;
         }
     }
     else if (reductionNum == 5){
@@ -44,20 +63,59 @@ void Automate::reduction(int n, int reductionNum){
         symbolstack.pop_back();
         delete(this->statestack.back());
         statestack.pop_back();
-        statestack.back()->transition(*this, new Expr(val));
+        cout << "r5 : " << val << endl;
+        statestack.back()->transition(*this, new ExprVal(val));
+        cout <<"r5 fin" <<endl ;
     }
     else if (reductionNum == 4) {
+        cout <<"je suis dans 4"<< endl ;
         int val = -1;
-        for (int i = 0; i < n; i++) {
-            if (i == 1)
-                val = symbolstack.back()->getValeur();
-            delete (this->symbolstack.back());
+        Symbole * expr;
+        for (int i = 0; i < n-1; i++) {
+            cout<<"i = " << i <<endl;
+            if (i == 1) {
+                cout<<"i iciii= " << i <<endl;
+                expr = this -> symbolstack.back();
+                symbolstack.pop_back();
+               // expr = (Expression*)symbolstack.back();
+            }
+            cout<<"ou  ici= " <<endl;
+            symbolstack.back()->Affiche();
+            delete (this->symbolstack.back()); // core dumped ici
+            cout<<"ou  ici2 " <<endl;
             symbolstack.pop_back();
+            cout<<"laa= " <<endl;
             delete (this->statestack.back());
+            cout<<"ou  la= " <<endl;
             statestack.pop_back();
         }
-        statestack.back()->transition(*this, new Expr(val));
+        delete (this->statestack.back());
+        cout<<"ou  la= " <<endl;
+        statestack.pop_back();
+        statestack.back()->transition(*this,expr);
     }
+}
+
+
+int Automate::parcours(Expression* e) {
+
+    if (e!= nullptr) {
+        // si Expression empiler type sinon
+        if (e->getval()==-1)
+        {
+
+
+        }
+        else
+        {
+            return(e->getval());
+        }
+
+    }
+    else {
+        cout << "pointeur nul" << endl;
+    }
+
 }
 
 Symbole* Automate::popSymbol() {

@@ -5,17 +5,21 @@
 #ifndef TP_EXPRMULT_H
 #define TP_EXPRMULT_H
 
-#include "expr.h"
 #include "symbole.h"
+#include "Expression.h"
 
-class ExprMult : public Expr{
+class ExprMult : public Expression{
 public:
 
-   // ExprMult(const Symbole &s1, const Symbole &s2);
+    explicit ExprMult(Expression* eg,Expression* ed) : Expression(eg,ed) {}
+
+    int getval() override;
+
+    void Affiche() ;
+
+    // ExprMult(const Symbole &s1, const Symbole &s2);
 
 private:
-    Symbole s1;
-    Symbole s2;
 };
 
 
