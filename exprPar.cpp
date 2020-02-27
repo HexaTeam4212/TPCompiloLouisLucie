@@ -3,18 +3,18 @@
 //
 
 #include "exprPar.h"
-#include <iostream> 
+#include <iostream>
 
 int ExprPar::getval() {
     cout << "ExprPar::getval() " << endl ;
-    //expr->Affiche();
-    int age;
-    cin >> age;
+    
     return(expr->getval());
     //return(7);
 }
 
 void ExprPar::Affiche() {
     Symbole::Affiche();
-    cout << " Parenthèse " << endl ;
+    cout << " Parenthèese " << endl ;
+    //expr->Affiche();
+    cout << " Parenthèsaa " << endl ;
 }

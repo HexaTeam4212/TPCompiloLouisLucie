@@ -74,9 +74,13 @@ void Automate::reduction(int n, int reductionNum){
         for (int i = 0; i < n-1; i++) {
             if (i == 1) {
                 expr =  this -> symbolstack.back();
+                //cout <<"affiche expr "<<endl;
+                //expr -> Affiche();
+                //cout <<"fin expr "<<endl;
                 symbolstack.pop_back();
                // expr = (Expression*)symbolstack.back();
             }
+            cout << "i ..." <<i <<endl;
             symbolstack.back()->Affiche();
             delete (this->symbolstack.back()); // core dumped ici
             symbolstack.pop_back();
