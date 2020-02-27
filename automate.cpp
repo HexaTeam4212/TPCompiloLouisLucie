@@ -72,21 +72,15 @@ void Automate::reduction(int n, int reductionNum){
         int val = -1;
         Symbole* expr;
         for (int i = 0; i < n-1; i++) {
-            cout<<"i = " << i <<endl;
             if (i == 1) {
-                cout<<"i iciii= " << i <<endl;
                 expr =  this -> symbolstack.back();
                 symbolstack.pop_back();
                // expr = (Expression*)symbolstack.back();
             }
-            cout<<"ou  ici= " <<endl;
             symbolstack.back()->Affiche();
             delete (this->symbolstack.back()); // core dumped ici
-            cout<<"ou  ici2 " <<endl;
             symbolstack.pop_back();
-            cout<<"laa= " <<endl;
             delete (this->statestack.back());
-            cout<<"ou  la= " <<endl;
             statestack.pop_back();
         }
         delete (this->statestack.back());

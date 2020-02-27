@@ -3,10 +3,15 @@
 //
 
 #include "exprPar.h"
+#include <iostream> 
 
 int ExprPar::getval() {
     cout << "ExprPar::getval() " << endl ;
+    //expr->Affiche();
+    int age;
+    cin >> age;
     return(expr->getval());
+    //return(7);
 }
 
 void ExprPar::Affiche() {
