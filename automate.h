@@ -6,7 +6,7 @@
 #define TP_AUTOMATE_H
 
 #include "Symbole.h"
-#include "state.h"
+#include "State.h"
 #include "lexer.h"
 #include <vector>
 #include <iostream>

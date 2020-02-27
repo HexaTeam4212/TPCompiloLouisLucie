@@ -11,11 +11,7 @@
 class ExprVal : public Expression {
 
 public:
-    explicit ExprVal(int val) : val(val), Expression() {
-
-        cout << " construct Val = " << val << endl;
-
-    }
+    explicit ExprVal(int val) : val(val), Expression() {}
 
     void Affiche() override;
 

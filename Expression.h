@@ -5,10 +5,8 @@
 #ifndef TP_EXPRESSION_H
 #define TP_EXPRESSION_H
 
-
 #include <iostream>
 #include "Symbole.h"
-
 using namespace std;
 
 class Expression : public Symbole {

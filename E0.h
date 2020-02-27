@@ -6,7 +6,7 @@
 #define TP_E0_H
 
 #include "Automate.h"
-#include "state.h"
+#include "State.h"
 using namespace std;
 
 class E0: public State {
