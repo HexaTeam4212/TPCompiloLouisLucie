@@ -12,13 +12,18 @@ class ExprPlus : public Expression{
 public:
 
     //ExprPlus(const Entier &s1, const Entier &s2); //double addition ça marche ?
-    explicit ExprPlus(Expression* eg,Expression* ed) : Expression(eg,ed) {}
+    explicit ExprPlus(Expression* eg,Expression* ed) : expr_gauche(eg), expr_droit(ed) {}
 
     void Affiche();
 
     int getval() override;
 
+    Expression* geteg();
+    Expression* geted();
+
 private:
+    Expression* expr_gauche;
+    Expression* expr_droit;
 };
 
 

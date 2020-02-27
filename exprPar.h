@@ -1,0 +1,28 @@
+//
+// Created by LUCIE BOVO on 27/02/2020.
+//
+
+#ifndef TP_EXPRPAR_H
+#define TP_EXPRPAR_H
+
+#include "symbole.h"
+#include "Expression.h"
+class ExprPar : public Expression {
+
+public:
+    explicit ExprPar(Expression* e) : expr(e) {
+
+        cout << " construct PAr" << endl;
+
+    }
+
+    void Affiche() override;
+
+    int getval() override;
+
+protected :
+    Expression* expr;
+};
+
+
+#endif //GRAM_EXPRPAR_H

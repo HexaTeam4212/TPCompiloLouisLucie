@@ -11,15 +11,20 @@
 class ExprMult : public Expression{
 public:
 
-    explicit ExprMult(Expression* eg,Expression* ed) : Expression(eg,ed) {}
+    explicit ExprMult(Expression* eg,Expression* ed) : expr_gauche(eg), expr_droit(ed) {}
 
     int getval() override;
 
     void Affiche() ;
 
+    Expression* geteg();
+    Expression* geted();
     // ExprMult(const Symbole &s1, const Symbole &s2);
 
 private:
+    Expression* expr_gauche;
+    Expression* expr_droit;
+
 };
 
 

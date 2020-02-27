@@ -11,10 +11,19 @@
 //}
 
 int ExprPlus::getval() {
+    cout<< "ExprPlus::getval()" <<endl;
     return(expr_gauche->getval()+expr_droit->getval());
 }
 
 void ExprPlus::Affiche() {
     Symbole::Affiche();
     cout << " plus " << endl ;
+}
+
+Expression* ExprPlus::geteg()
+{
+    return(expr_gauche);
+}
+Expression* ExprPlus::geted() {
+    return(expr_droit);
 }

@@ -11,13 +11,7 @@ void Expression::Affiche() {
 }
 
 int Expression::getval() {
+    cout << "Expression::getval()" << endl;
     return -1111;
 }
 
-Expression* Expression::geteg()
-{
-    return(expr_gauche);
-}
-Expression* Expression::geted() {
-    return(expr_droit);
-}

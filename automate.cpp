@@ -3,7 +3,7 @@
 //
 
 #include "automate.h"
-#include "ExprVal.h"
+
 #include <iostream>
 
 Automate::Automate(string s) {
@@ -19,17 +19,17 @@ void Automate::decalage(Symbole* s, State* e){
 }
 void Automate::reduction(int n, int reductionNum){
     if (reductionNum == 2 || reductionNum == 3){
-        Symbole* s1 = this->popSymbol();
-        int s1val = ((Expression *)s1)->getval();
-        cout<< "s1 get = " << s1val << endl;
-        s1->Affiche();
-        ExprVal* e1=new ExprVal(s1val);
+        Symbole* e1 = this->popSymbol();
+        //int s1val = ((Expression *)s1)->getval();
+        //cout<< "s1 get = " << s1val << endl;
+        //s1->Affiche();
+        //Expression* e1=new ExprPar((Expression*) s1);
         this->popAndDestroySymbol();
-        Symbole* s2 = this->popSymbol();
-        int s2val = ((Expression *)s2)->getval();
-        cout<< "s2 get = " << s2val;
-        s2->Affiche();
-        ExprVal* e2=new ExprVal(s2val);
+        Symbole* e2 = this->popSymbol();
+        //int s2val = ((Expression *)s2)->getval();
+        //cout<< "s2 get = " << s2val;
+        //s2->Affiche();
+        //Expression* e2=new ExprPar((Expression*)s2);
 
         for (int i=0;i<n;i++)
         {
@@ -39,10 +39,10 @@ void Automate::reduction(int n, int reductionNum){
         if (reductionNum == 2){
             //stocker dans l'arbre
             cout << "r2 : " << endl;
-            int s1val = (s1)->getValeur();
-            int s2val = (s2)->getValeur();
-            int sum = s1val + s2val;
-            statestack.back()->transition(*this, new ExprPlus(e1,e2));
+            //int s1val = (s1)->getValeur();
+            //int s2val = (s2)->getValeur();
+            //int sum = s1val + s2val;
+            statestack.back()->transition(*this, new ExprPlus((Expression*)e1,(Expression*)e2));
             //ExprPlus* E=new ExprPlus((Expression*) expr_arbre,(Expression*) s2);
             //expr_arbre=E;
             cout << "r2 fin: " << endl;
@@ -50,8 +50,8 @@ void Automate::reduction(int n, int reductionNum){
         else if (reductionNum == 3) {
             cout << "r3 : " << endl;
             //stocker dans l'arbre
-            int product = (s1)->getValeur() * (s2)->getValeur();
-            statestack.back()->transition(*this, new ExprMult(e1,e2));
+            //int product = (s1)->getValeur() * (s2)->getValeur();
+            statestack.back()->transition(*this, new ExprMult((Expression*)e1,(Expression*)e2));
             //ExprMult* E=new ExprMult((Expression*) expr_arbre,(Expression*) s2);
            // expr_arbre=E;
             cout << "r3 fin : " << endl;
@@ -70,12 +70,12 @@ void Automate::reduction(int n, int reductionNum){
     else if (reductionNum == 4) {
         cout <<"je suis dans 4"<< endl ;
         int val = -1;
-        Symbole * expr;
+        Symbole* expr;
         for (int i = 0; i < n-1; i++) {
             cout<<"i = " << i <<endl;
             if (i == 1) {
                 cout<<"i iciii= " << i <<endl;
-                expr = this -> symbolstack.back();
+                expr =  this -> symbolstack.back();
                 symbolstack.pop_back();
                // expr = (Expression*)symbolstack.back();
             }
@@ -92,7 +92,7 @@ void Automate::reduction(int n, int reductionNum){
         delete (this->statestack.back());
         cout<<"ou  la= " <<endl;
         statestack.pop_back();
-        statestack.back()->transition(*this,expr);
+        statestack.back()->transition(*this,new ExprPar((Expression*) expr));
     }
 }
 

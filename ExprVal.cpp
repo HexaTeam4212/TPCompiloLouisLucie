@@ -5,6 +5,7 @@
 #include "ExprVal.h"
 
 int ExprVal::getval() {
+    cout << "ExprVal::getval()" << endl ;
     return val;
 }
 

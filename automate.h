@@ -12,6 +12,8 @@
 #include <iostream>
 #include "exprplus.h"
 #include "exprmult.h"
+#include "exprPar.h"
+#include "ExprVal.h"
 
 using namespace std;
 
