@@ -5,7 +5,7 @@
 #ifndef TP_E0_H
 #define TP_E0_H
 
-#include "automate.h"
+#include "Automate.h"
 #include "state.h"
 using namespace std;
 

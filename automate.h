@@ -5,14 +5,14 @@
 #ifndef TP_AUTOMATE_H
 #define TP_AUTOMATE_H
 
-#include "symbole.h"
+#include "Symbole.h"
 #include "state.h"
 #include "lexer.h"
 #include <vector>
 #include <iostream>
-#include "exprplus.h"
-#include "exprmult.h"
-#include "exprPar.h"
+#include "ExprPlus.h"
+#include "ExprMult.h"
+#include "ExprPar.h"
 #include "ExprVal.h"
 
 using namespace std;

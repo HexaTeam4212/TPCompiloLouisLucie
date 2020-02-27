@@ -5,19 +5,13 @@
 #ifndef TP_EXPRPAR_H
 #define TP_EXPRPAR_H
 
-#include "symbole.h"
+#include "Symbole.h"
 #include "Expression.h"
 class ExprPar : public Expression {
 
 public:
-    explicit ExprPar(Expression* e) : expr(e) {
-
-        cout << " construct PAr" << endl;
-
-    }
-
+    explicit ExprPar(Expression* e) : expr(e) {    }
     void Affiche() override;
-
     int getval() override;
 
 protected :
@@ -25,4 +19,4 @@ protected :
 };
 
 
-#endif //GRAM_EXPRPAR_H
+#endif //TP_EXPRPAR_H

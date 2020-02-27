@@ -7,15 +7,13 @@
 
 
 #include <iostream>
-#include "symbole.h"
+#include "Symbole.h"
 
 using namespace std;
 
 class Expression : public Symbole {
 public:
-    explicit Expression() : Symbole(EXPR) {
-        cout << "ici"<<endl;
-    }
+    explicit Expression() : Symbole(EXPR) {}
 
     ~Expression() override = default;
 
