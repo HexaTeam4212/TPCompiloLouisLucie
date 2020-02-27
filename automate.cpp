@@ -109,14 +109,14 @@ const Lexer &Automate::getLexer() const {
 }
 
 void Automate::printSymbolStack() {
-    for (auto & it : this->symbolstack){
+    for (Symbole* it : this->symbolstack){
         it->Affiche();
         cout << endl;
     }
 }
 
 void Automate::printStateStack() {
-    for (auto & it : this->statestack){
+    for (State* it : this->statestack){
         it->print();
         cout << endl;
     }
