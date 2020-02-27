@@ -1,7 +1,7 @@
 //
 // Created by Louis on 18/02/2020.
 //
-
+#include "Automate.h"
 
 Automate::Automate(string s) {
     this->lexer.setFlux(s);

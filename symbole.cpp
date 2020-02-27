@@ -1,4 +1,6 @@
 
+#include "Symbole.h"
+#include <iostream>
 
 void Symbole::Affiche() {
    cout<<Etiquettes[ident];

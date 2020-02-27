@@ -11,6 +11,6 @@ void Expression::Affiche() {
 }
 
 int Expression::getval() {
-    return(-1)
+    return(-1);
 }
 
