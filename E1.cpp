@@ -18,6 +18,8 @@ bool E1::transition(Automate &automate, Symbole *s){
         case FIN:
             automate.setAccepter(true);
             break;
+        default:
+            automate.decalage(new Symbole(ERREUR), nullptr);
     }
     return false;
 }

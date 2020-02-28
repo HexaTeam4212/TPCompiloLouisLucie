@@ -19,6 +19,8 @@ bool E3::transition(Automate &automate, Symbole *s){
         case FIN:
             automate.reduction(1, 5);
             break;
+        default:
+            automate.decalage(new Symbole(ERREUR), nullptr);
     }
     return true;
 }

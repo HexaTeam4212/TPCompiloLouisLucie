@@ -18,6 +18,8 @@ bool E4::transition(Automate &automate, Symbole *s){
         case EXPR:
             automate.decalage(s, new E7);
             break;
+        default:
+            automate.decalage(new Symbole(ERREUR), nullptr);
     }
     return false;
 }
