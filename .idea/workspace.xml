@@ -12,20 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39753f34-8dbf-441e-8486-6d1d6019c2a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automata.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExprVal.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expression.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexer.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/States.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Symbol.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exprPar.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exprmult.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exprplus.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gl" beforeDir="false" afterPath="$PROJECT_DIR$/gl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExprVal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ExprVal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExprVal.h" beforeDir="false" afterPath="$PROJECT_DIR$/ExprVal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expression.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Expression.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expression.h" beforeDir="false" afterPath="$PROJECT_DIR$/Expression.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exprPar.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ExprPar.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exprPar.h" beforeDir="false" afterPath="$PROJECT_DIR$/ExprPar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exprmult.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ExprMult.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exprmult.h" beforeDir="false" afterPath="$PROJECT_DIR$/ExprMult.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exprplus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ExprPlus.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exprplus.h" beforeDir="false" afterPath="$PROJECT_DIR$/ExprPlus.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.o" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

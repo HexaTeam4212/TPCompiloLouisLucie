@@ -13,7 +13,7 @@ class ExprPar : public Expression {
 public:
     explicit ExprPar(Expression* e) : expr(e) {    }
     void display() override;
-    int getval() override;
+    int getValue() override;
 
 protected :
     Expression* expr;

@@ -34,7 +34,7 @@ int main() {
         s = l.Consult();
     }
 
-   cout << ((Expression*)automate.getTopSymbole())->getval() << endl;
+   cout << ((Expression *) automate.getTopSymbole())->getValue() << endl;
     return 0;
 }
 

@@ -13,7 +13,7 @@ public:
 
     explicit ExprPlus(Expression* eg,Expression* ed) : expr_gauche(eg), expr_droit(ed) {}
     void display();
-    int getval() override;
+    int getValue() override;
     Expression* geteg();
     Expression* geted();
 

@@ -4,8 +4,8 @@
 
 #include "ExprMult.h"
 
-int ExprMult::getval() {
-    return(expr_gauche->getval()*expr_droit->getval());
+int ExprMult::getValue() {
+    return(expr_gauche->getValue() * expr_droit->getValue());
 }
 
 void ExprMult::display() {

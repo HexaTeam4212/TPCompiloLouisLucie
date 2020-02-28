@@ -12,8 +12,8 @@ class ExprMult : public Expression{
 public:
 
     explicit ExprMult(Expression* eg,Expression* ed) : expr_gauche(eg), expr_droit(ed) {}
-    int getval() override;
-    void display() ;
+    int getValue() override;
+    void display() override ;
     Expression* geteg();
     Expression* geted();
 

@@ -4,8 +4,8 @@
 
 #include "ExprPlus.h"
 
-int ExprPlus::getval() {
-    return(expr_gauche->getval()+expr_droit->getval());
+int ExprPlus::getValue() {
+    return(expr_gauche->getValue() + expr_droit->getValue());
 }
 
 void ExprPlus::display() {

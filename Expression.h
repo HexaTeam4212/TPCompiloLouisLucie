@@ -13,9 +13,9 @@ class Expression : public Symbol {
 public:
     explicit Expression() : Symbol(EXPR) {}
 
-    virtual int getval();
+    virtual int getValue() override;
 
-    virtual void display() override;
+    void display() override;
 
 protected:
 

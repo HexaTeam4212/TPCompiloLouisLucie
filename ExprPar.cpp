@@ -6,8 +6,8 @@
 #include <iostream>
 
 
-int ExprPar::getval() {
-    return(expr->getval());
+int ExprPar::getValue() {
+    return(expr->getValue());
 }
 
 void ExprPar::display() {

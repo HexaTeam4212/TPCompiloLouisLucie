@@ -4,7 +4,7 @@
 
 #include "ExprVal.h"
 
-int ExprVal::getval() {
+int ExprVal::getValue() {
     return val;
 }
 

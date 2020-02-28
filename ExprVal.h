@@ -15,7 +15,7 @@ public:
 
     void display() override;
 
-    int getval() override;
+    int getValue() override;
 
 protected :
     int val;
