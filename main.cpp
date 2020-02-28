@@ -26,7 +26,7 @@ int main() {
            l.Advance();
         e = automate.getTopState();
 //        cout << "top symbol ";
-//        automate.getTopSymbole()->display();
+//        automate.getTopSymbol()->display();
 //        cout << endl;
 //        cout << "top state ";
 //        automate.getTopState()->print();
@@ -34,7 +34,8 @@ int main() {
         s = l.Consult();
     }
 
-   cout << ((Expression *) automate.getTopSymbole())->getValue() << endl;
+   cout << ((Expression *) automate.getTopSymbol())->getValue() << endl;
+    delete(s);
     return 0;
 }
 

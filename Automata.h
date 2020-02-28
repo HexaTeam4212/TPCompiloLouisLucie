@@ -22,13 +22,14 @@ class State;
 class Automata {
 public:
     Automata(string s);
+    virtual ~Automata();
     void shift(Symbol* s, State* e);
     void reduction(int n, int reductionNum);
     Symbol* popSymbol();
     void popAndDestroySymbol();
     void pushState(State* s);
     State* getTopState();
-    Symbol* getTopSymbole();
+    Symbol* getTopSymbol();
 //    void printSymbolStack();
 //    void printStateStack();
 

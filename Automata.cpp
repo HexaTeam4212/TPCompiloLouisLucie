@@ -76,7 +76,7 @@ State* Automata::getTopState() {
     return this->statestack.back();
 }
 
-Symbol* Automata::getTopSymbole() {
+Symbol* Automata::getTopSymbol() {
     return this->symbolstack.back();
 }
 
@@ -104,4 +104,14 @@ bool Automata::isAccept() const {
 
 void Automata::setAccept(bool newAccept) {
     Automata::accept = newAccept;
+}
+
+Automata::~Automata() {
+    while (!symbolstack.empty()){
+        popAndDestroySymbol();
+    }
+    while (!statestack.empty()){
+        delete(statestack.back());
+        statestack.pop_back();
+    }
 }

@@ -4,8 +4,9 @@ Lexer::Lexer() = default;
 
 Symbol * Lexer::Consult() {
    if (!buffer) {
-      if (head == stream.length())
+      if (head == stream.length()) {
           buffer = new Symbol(END);
+      }
       else
       {
          switch (stream[head]) {
