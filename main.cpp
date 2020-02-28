@@ -16,21 +16,21 @@ int main() {
     State *e = new E0();
     automate.pushState(e);
 
-    cout << "top state ";
-    automate.getTopState()->print();
-    cout << endl;
+//    cout << "top state rverfvgeq";
+//    automate.getTopState()->print();
+//    cout << endl;
 
     while (!automate.isAccept()) {
-        cout << endl;
+//        cout << endl;
        if (!e->transition(automate, s))
            l.Advance();
         e = automate.getTopState();
-        cout << "top symbol ";
-        automate.getTopSymbole()->display();
-        cout << endl;
-        cout << "top state ";
-        automate.getTopState()->print();
-        cout << endl;
+//        cout << "top symbol ";
+//        automate.getTopSymbole()->display();
+//        cout << endl;
+//        cout << "top state ";
+//        automate.getTopState()->print();
+//        cout << endl;
         s = l.Consult();
     }
 

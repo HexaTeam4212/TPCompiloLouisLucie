@@ -1,7 +1,7 @@
 CPPFLAGS = -std=gnu++11 -pedantic -Wall -Wextra -ansi -g
 MAPFLAG = 
 
-EXEC = 	gl
+EXEC = 	gramlang
 SRCPP = $(wildcard *.cpp)
 OBJETS = $(SRCPP:.cpp=.o)
 
