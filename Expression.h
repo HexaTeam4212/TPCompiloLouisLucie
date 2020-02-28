@@ -6,18 +6,16 @@
 #define TP_EXPRESSION_H
 
 #include <iostream>
-#include "Symbole.h"
+#include "Symbol.h"
 using namespace std;
 
-class Expression : public Symbole {
+class Expression : public Symbol {
 public:
-    explicit Expression() : Symbole(EXPR) {}
+    explicit Expression() : Symbol(EXPR) {}
 
-    ~Expression() override = default;
+    virtual int getValue() override;
 
-    virtual int getval();
-
-    virtual void Affiche() override;
+    void display() override;
 
 protected:
 

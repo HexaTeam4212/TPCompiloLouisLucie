@@ -6,11 +6,11 @@
 
 
 
-void Expression::Affiche() {
-    Symbole::Affiche();
+void Expression::display() {
+    Symbol::display();
 }
 
-int Expression::getval() {
+int Expression::getValue() {
     return(-1);
 }
 

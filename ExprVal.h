@@ -13,9 +13,9 @@ class ExprVal : public Expression {
 public:
     explicit ExprVal(int val) : val(val), Expression() {}
 
-    void Affiche() override;
+    void display() override;
 
-    int getval() override;
+    int getValue() override;
 
 protected :
     int val;

@@ -1,0 +1,94 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Automata.cpp
+Automata.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Automata.h
+
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Automata.h
+Symbol.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Symbol.h
+States.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/States.h
+Lexer.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Lexer.h
+vector
+-
+iostream
+-
+ExprPlus.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/exprplus.h
+ExprMult.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/exprmult.h
+ExprPar.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/exprPar.h
+ExprVal.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/ExprVal.h
+
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/ExprVal.h
+Expression.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Expression.h
+
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Expression.h
+iostream
+-
+Symbol.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Symbol.h
+
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Lexer.h
+string
+-
+iostream
+-
+Symbol.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Symbol.h
+
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/States.cpp
+States.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/States.h
+
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/States.h
+string
+-
+iostream
+-
+Symbol.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Symbol.h
+Automata.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Automata.h
+
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Symbol.h
+string
+-
+
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/exprPar.h
+Symbol.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Symbol.h
+Expression.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Expression.h
+
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/exprmult.h
+Symbol.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Symbol.h
+Expression.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Expression.h
+
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/exprplus.h
+Symbol.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Symbol.h
+Expression.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Expression.h
+
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/main.cpp
+iostream
+-
+Lexer.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Lexer.h
+Automata.h
+C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Automata.h
+

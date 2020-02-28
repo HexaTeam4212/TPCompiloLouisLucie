@@ -1,47 +1,41 @@
 #include <iostream>
-#include "lexer.h"
-#include "Automate.h"
-#include "E0.h"
+#include "Lexer.h"
+#include "Automata.h"
 
 class Lexer;
 
-int main(void) {
-    //string chaine("(1+34)*123"); // TODO: remplacer par user input
-    //string chaine("(1+2)"); // TODO: remplacer par user input
-    //string chaine("1+34*123");
-//    string chaine("1+((34)*123)+(3+2)*((2))*(4+(7*5))");
-    //string chaine("((1))");
-    //string chaine("(7+5)*2");
+int main() {
     string chaine;
 
     cout << "Please enter an expresssion to evaluate" << endl;
     cin >> chaine;
 
-    Automate automate(chaine);
+    Automata automate(chaine);
     Lexer l = automate.getLexer();
-    Symbole *s = l.Consulter();
+    Symbol *s = l.Consult();
     State *e = new E0();
     automate.pushState(e);
 
-    cout << "top state ";
-    automate.getTopState()->print();
-    cout << endl;
+//    cout << "top state rverfvgeq";
+//    automate.getTopState()->print();
+//    cout << endl;
 
-    while (!automate.isAccepter()) {
-        cout << endl;
+    while (!automate.isAccept()) {
+//        cout << endl;
        if (!e->transition(automate, s))
-           l.Avancer();
+           l.Advance();
         e = automate.getTopState();
-        cout << "top symbol ";
-        automate.getTopSymbole()->Affiche();
-        cout << endl;
-        cout << "top state ";
-        automate.getTopState()->print();
-        cout << endl;
-        s = l.Consulter();
+//        cout << "top symbol ";
+//        automate.getTopSymbol()->display();
+//        cout << endl;
+//        cout << "top state ";
+//        automate.getTopState()->print();
+//        cout << endl;
+        s = l.Consult();
     }
 
-   cout << ((Expression*)automate.getTopSymbole())->getval() << endl;
+   cout << ((Expression *) automate.getTopSymbol())->getValue() << endl;
+    delete(s);
     return 0;
 }
 
