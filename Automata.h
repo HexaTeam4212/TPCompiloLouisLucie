@@ -17,10 +17,12 @@
 
 using namespace std;
 
+class State;
+
 class Automata {
 public:
     Automata(string s);
-    void decalage(Symbol* s, State* e);
+    void shift(Symbol* s, State* e);
     void reduction(int n, int reductionNum);
     Symbol* popSymbol();
     void popAndDestroySymbol();

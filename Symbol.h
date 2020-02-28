@@ -12,7 +12,7 @@ class Symbol {
    public:
       explicit Symbol(int i) : ident(i) {  }
       virtual ~Symbol() = default;
-      explicit operator int() const { return ident; }
+      operator int() const { return ident; }
       virtual void display();
       virtual int getValue();
       bool isTerminal();

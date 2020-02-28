@@ -11,6 +11,8 @@
 #include "Automata.h"
 using namespace std;
 
+class Automata;
+class Symbol;
 class State;
 class E0;
 class E1;

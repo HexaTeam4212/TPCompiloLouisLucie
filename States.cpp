@@ -13,16 +13,16 @@ State::State(const string &name) {}
 bool E0::transition(Automata &automate, Symbol *s){
     switch(*s){
         case EXPR:
-            automate.decalage(s, new E1);
+            automate.shift(s, new E1);
             break;
         case OPENPAR:
-            automate.decalage(s, new E2);
+            automate.shift(s, new E2);
             break;
         case INT:
-            automate.decalage(s, new E3);
+            automate.shift(s, new E3);
             break;
         default:
-            automate.decalage(new Symbol(ERROR), nullptr);
+            automate.shift(new Symbol(ERROR), 0);
     }
     return false;
 }
@@ -34,16 +34,16 @@ void E0::print() const {
 bool E1::transition(Automata &automate, Symbol *s){
     switch(*s){
         case PLUS:
-            automate.decalage(s, new E4);
+            automate.shift(s, new E4);
             break;
         case MULT:
-            automate.decalage(s, new E5);
+            automate.shift(s, new E5);
             break;
         case END:
             automate.setAccept(true);
             break;
         default:
-            automate.decalage(new Symbol(ERROR), nullptr);
+            automate.shift(new Symbol(ERROR), 0);
     }
     return false;
 }
@@ -54,16 +54,16 @@ void E1::print() const {
 bool E2::transition(Automata &automate, Symbol *s){
     switch(*s){
         case INT:
-            automate.decalage(s, new E3);
+            automate.shift(s, new E3);
             break;
         case OPENPAR:
-            automate.decalage(s, new E2);
+            automate.shift(s, new E2);
             break;
         case EXPR:
-            automate.decalage(s, new E6);
+            automate.shift(s, new E6);
             break;
         default:
-            automate.decalage(new Symbol(ERROR), nullptr);
+            automate.shift(new Symbol(ERROR), 0);
     }
     return false;
 }
@@ -87,7 +87,7 @@ bool E3::transition(Automata &automate, Symbol *s){
             automate.reduction(1, 5);
             break;
         default:
-            automate.decalage(new Symbol(ERROR), nullptr);
+            automate.shift(new Symbol(ERROR), 0);
     }
     return true;
 }
@@ -99,16 +99,16 @@ void E3::print() const {
 bool E4::transition(Automata &automate, Symbol *s){
     switch(*s){
         case INT:
-            automate.decalage(s, new E3);
+            automate.shift(s, new E3);
             break;
         case OPENPAR:
-            automate.decalage(s, new E2);
+            automate.shift(s, new E2);
             break;
         case EXPR:
-            automate.decalage(s, new E7);
+            automate.shift(s, new E7);
             break;
         default:
-            automate.decalage(new Symbol(ERROR), nullptr);
+            automate.shift(new Symbol(ERROR), 0);
     }
     return false;
 }
@@ -120,16 +120,16 @@ void E4::print() const {
 bool E5::transition(Automata &automate, Symbol *s){
     switch(*s){
         case INT:
-            automate.decalage(s, new E3);
+            automate.shift(s, new E3);
             break;
         case OPENPAR:
-            automate.decalage(s, new E2);
+            automate.shift(s, new E2);
             break;
         case EXPR:
-            automate.decalage(s, new E8);
+            automate.shift(s, new E8);
             break;
         default:
-            automate.decalage(new Symbol(ERROR), nullptr);
+            automate.shift(new Symbol(ERROR), 0);
     }
     return false;
 }
@@ -141,16 +141,16 @@ void E5::print() const {
 bool E6::transition(Automata &automate, Symbol *s){
     switch(*s){
         case PLUS:
-            automate.decalage(s, new E4);
+            automate.shift(s, new E4);
             break;
         case MULT:
-            automate.decalage(s, new E5);
+            automate.shift(s, new E5);
             break;
         case CLOSEPAR:
-            automate.decalage(s, new E9);
+            automate.shift(s, new E9);
             break;
         default:
-            automate.decalage(new Symbol(ERROR), nullptr);
+            automate.shift(new Symbol(ERROR), 0);
     }
     return false;
 }
@@ -167,7 +167,7 @@ bool E7::transition(Automata &automate, Symbol *s){
             break;
         }
         case MULT:
-            automate.decalage(s, new E5);
+            automate.shift(s, new E5);
             return false;
         case CLOSEPAR: {
             automate.reduction(3, 2);
@@ -178,7 +178,7 @@ bool E7::transition(Automata &automate, Symbol *s){
             break;
         }
         default:
-            automate.decalage(new Symbol(ERROR), nullptr);
+            automate.shift(new Symbol(ERROR), 0);
             return false;
     }
     return true;
@@ -207,7 +207,7 @@ bool E8::transition(Automata &automate, Symbol *s){
             break;
         }
         default:
-            automate.decalage(new Symbol(ERROR), nullptr);
+            automate.shift(new Symbol(ERROR), 0);
             return false;
     }
     return true;
@@ -236,7 +236,7 @@ bool E9::transition(Automata &automate, Symbol *s){
             break;
         }
         default:
-            automate.decalage(new Symbol(ERROR), nullptr);
+            automate.shift(new Symbol(ERROR), 0);
             return false;
     }
     return true;

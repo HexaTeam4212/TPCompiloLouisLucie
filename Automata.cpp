@@ -10,7 +10,7 @@ Automata::Automata(string s) {
     this->accept = false;
 }
 
-void Automata::decalage(Symbol* s, State* e){
+void Automata::shift(Symbol* s, State* e){
     this->symbolstack.push_back(s);
     this->statestack.push_back(e);
 }
