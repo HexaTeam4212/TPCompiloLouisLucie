@@ -6,7 +6,7 @@
 #define TP_AUTOMATE_H
 
 #include "Symbole.h"
-#include "State.h"
+#include "States.h"
 #include "lexer.h"
 #include <vector>
 #include <iostream>
@@ -26,7 +26,6 @@ public:
     void popAndDestroySymbol();
     void pushState(State* s);
     State* getTopState();
-    int parcours(Expression* e);
     Symbole* getTopSymbole();
     void printSymbolStack();
     void printStateStack();

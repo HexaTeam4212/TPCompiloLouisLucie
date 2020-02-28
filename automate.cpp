@@ -58,28 +58,6 @@ void Automate::reduction(int n, int reductionNum){
     }
 }
 
-
-int Automate::parcours(Expression* e) {
-
-    if (e!= nullptr) {
-        // si Expression empiler type sinon
-        if (e->getval()==-1)
-        {
-
-
-        }
-        else
-        {
-            return(e->getval());
-        }
-
-    }
-    else {
-        cout << "pointeur nul" << endl;
-    }
-
-}
-
 Symbole* Automate::popSymbol() {
     Symbole* lastSymbol = symbolstack.back();
     symbolstack.pop_back();
