@@ -90,66 +90,6 @@
 		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Automata.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E0.cpp">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E0.h">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E1.cpp">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E1.h">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E2.cpp">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E2.h">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E3.cpp">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E3.h">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E4.cpp">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E4.h">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E5.cpp">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E5.h">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E6.cpp">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E6.h">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E7.cpp">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E7.h">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E8.cpp">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E8.h">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E9.cpp">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E9.h">
-			<Option target="TP"/>
-		</Unit>
 		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/ExprVal.cpp">
 			<Option target="TP"/>
 		</Unit>
@@ -160,6 +100,12 @@
 			<Option target="TP"/>
 		</Unit>
 		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Expression.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Lexer.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Lexer.h">
 			<Option target="TP"/>
 		</Unit>
 		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/States.cpp">
@@ -190,12 +136,6 @@
 			<Option target="TP"/>
 		</Unit>
 		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/exprplus.h">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/lexer.cpp">
-			<Option target="TP"/>
-		</Unit>
-		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/lexer.h">
 			<Option target="TP"/>
 		</Unit>
 		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/main.cpp">

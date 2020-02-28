@@ -13,8 +13,6 @@ class Expression : public Symbol {
 public:
     explicit Expression() : Symbol(EXPR) {}
 
-    ~Expression() override = default;
-
     virtual int getval();
 
     virtual void display() override;

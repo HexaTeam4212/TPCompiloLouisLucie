@@ -46,7 +46,7 @@ Symbol * Lexer::Consult() {
 }
 
 void Lexer::Advance() {
-    buffer = nullptr;
+    buffer = 0;
 }
 
 const string &Lexer::getStream() const {
@@ -69,6 +69,6 @@ void Lexer::setHead(int newHead) {
     Lexer::head = newHead;
 }
 
-void Lexer::setTampon(Symbol *newBuffer) {
+void Lexer::setBuffer(Symbol *newBuffer) {
     Lexer::buffer = newBuffer;
 }

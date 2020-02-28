@@ -27,8 +27,8 @@ public:
     void pushState(State* s);
     State* getTopState();
     Symbol* getTopSymbole();
-    void printSymbolStack();
-    void printStateStack();
+//    void printSymbolStack();
+//    void printStateStack();
 
     bool isAccept() const;
 

@@ -1,11 +1,10 @@
 #include <iostream>
 #include "Lexer.h"
 #include "Automata.h"
-#include "E0.h"
 
 class Lexer;
 
-int main(void) {
+int main() {
     string chaine;
 
     cout << "Please enter an expresssion to evaluate" << endl;

@@ -5,7 +5,7 @@
 
 Automata::Automata(string s) {
     this->lexer.setStream(s);
-    this->lexer.setTampon(nullptr);
+    this->lexer.setBuffer(0);
     this->lexer.setHead(0);
     this->accept = false;
 }
@@ -40,7 +40,7 @@ void Automata::reduction(int n, int reductionNum){
         statestack.back()->transition(*this, new ExprVal(val));
     }
     else if (reductionNum == 4) {
-        Symbol* expr = nullptr;
+        Symbol* expr = 0;
         for (int i = 0; i < n-1; i++) {
             if (i == 1) {
                 expr =  this -> symbolstack.back();
@@ -83,20 +83,20 @@ Symbol* Automata::getTopSymbole() {
 const Lexer &Automata::getLexer() const {
     return lexer;
 }
-
-void Automata::printSymbolStack() {
-    for (Symbol* it : this->symbolstack){
-        it->display();
-        cout << endl;
-    }
-}
-
-void Automata::printStateStack() {
-    for (State* it : this->statestack){
-        it->print();
-        cout << endl;
-    }
-}
+//
+//void Automata::printSymbolStack() {
+//    for (auto it = symbolstack.begin(); it != symbolstack.end(); ++it){
+//        (*it)->display();
+//        cout << endl;
+//    }
+//}
+//
+//void Automata::printStateStack() {
+//    for (auto it = statestack.begin(); it != statestack.end(); ++it){
+//        (*it)->print();
+//        cout << endl;
+//    }
+//}
 
 bool Automata::isAccept() const {
     return accept;

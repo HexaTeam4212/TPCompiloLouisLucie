@@ -96,199 +96,9 @@ CMakeFiles\TP.dir\Automata.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TP.dir\Automata.cpp.s /c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\Automata.cpp"
 <<
 
-CMakeFiles\TP.dir\E0.cpp.obj: CMakeFiles\TP.dir\flags.make
-CMakeFiles\TP.dir\E0.cpp.obj: ..\E0.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TP.dir/E0.cpp.obj"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\E0.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E0.cpp"
-<<
-
-CMakeFiles\TP.dir\E0.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP.dir/E0.cpp.i"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\TP.dir\E0.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E0.cpp"
-<<
-
-CMakeFiles\TP.dir\E0.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP.dir/E0.cpp.s"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TP.dir\E0.cpp.s /c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E0.cpp"
-<<
-
-CMakeFiles\TP.dir\E1.cpp.obj: CMakeFiles\TP.dir\flags.make
-CMakeFiles\TP.dir\E1.cpp.obj: ..\E1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TP.dir/E1.cpp.obj"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\E1.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E1.cpp"
-<<
-
-CMakeFiles\TP.dir\E1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP.dir/E1.cpp.i"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\TP.dir\E1.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E1.cpp"
-<<
-
-CMakeFiles\TP.dir\E1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP.dir/E1.cpp.s"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TP.dir\E1.cpp.s /c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E1.cpp"
-<<
-
-CMakeFiles\TP.dir\E2.cpp.obj: CMakeFiles\TP.dir\flags.make
-CMakeFiles\TP.dir\E2.cpp.obj: ..\E2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TP.dir/E2.cpp.obj"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\E2.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E2.cpp"
-<<
-
-CMakeFiles\TP.dir\E2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP.dir/E2.cpp.i"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\TP.dir\E2.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E2.cpp"
-<<
-
-CMakeFiles\TP.dir\E2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP.dir/E2.cpp.s"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TP.dir\E2.cpp.s /c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E2.cpp"
-<<
-
-CMakeFiles\TP.dir\E3.cpp.obj: CMakeFiles\TP.dir\flags.make
-CMakeFiles\TP.dir\E3.cpp.obj: ..\E3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TP.dir/E3.cpp.obj"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\E3.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E3.cpp"
-<<
-
-CMakeFiles\TP.dir\E3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP.dir/E3.cpp.i"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\TP.dir\E3.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E3.cpp"
-<<
-
-CMakeFiles\TP.dir\E3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP.dir/E3.cpp.s"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TP.dir\E3.cpp.s /c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E3.cpp"
-<<
-
-CMakeFiles\TP.dir\E4.cpp.obj: CMakeFiles\TP.dir\flags.make
-CMakeFiles\TP.dir\E4.cpp.obj: ..\E4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TP.dir/E4.cpp.obj"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\E4.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E4.cpp"
-<<
-
-CMakeFiles\TP.dir\E4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP.dir/E4.cpp.i"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\TP.dir\E4.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E4.cpp"
-<<
-
-CMakeFiles\TP.dir\E4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP.dir/E4.cpp.s"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TP.dir\E4.cpp.s /c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E4.cpp"
-<<
-
-CMakeFiles\TP.dir\E5.cpp.obj: CMakeFiles\TP.dir\flags.make
-CMakeFiles\TP.dir\E5.cpp.obj: ..\E5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TP.dir/E5.cpp.obj"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\E5.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E5.cpp"
-<<
-
-CMakeFiles\TP.dir\E5.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP.dir/E5.cpp.i"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\TP.dir\E5.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E5.cpp"
-<<
-
-CMakeFiles\TP.dir\E5.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP.dir/E5.cpp.s"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TP.dir\E5.cpp.s /c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E5.cpp"
-<<
-
-CMakeFiles\TP.dir\E6.cpp.obj: CMakeFiles\TP.dir\flags.make
-CMakeFiles\TP.dir\E6.cpp.obj: ..\E6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TP.dir/E6.cpp.obj"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\E6.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E6.cpp"
-<<
-
-CMakeFiles\TP.dir\E6.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP.dir/E6.cpp.i"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\TP.dir\E6.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E6.cpp"
-<<
-
-CMakeFiles\TP.dir\E6.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP.dir/E6.cpp.s"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TP.dir\E6.cpp.s /c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E6.cpp"
-<<
-
-CMakeFiles\TP.dir\E7.cpp.obj: CMakeFiles\TP.dir\flags.make
-CMakeFiles\TP.dir\E7.cpp.obj: ..\E7.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TP.dir/E7.cpp.obj"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\E7.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E7.cpp"
-<<
-
-CMakeFiles\TP.dir\E7.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP.dir/E7.cpp.i"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\TP.dir\E7.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E7.cpp"
-<<
-
-CMakeFiles\TP.dir\E7.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP.dir/E7.cpp.s"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TP.dir\E7.cpp.s /c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E7.cpp"
-<<
-
-CMakeFiles\TP.dir\E8.cpp.obj: CMakeFiles\TP.dir\flags.make
-CMakeFiles\TP.dir\E8.cpp.obj: ..\E8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/TP.dir/E8.cpp.obj"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\E8.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E8.cpp"
-<<
-
-CMakeFiles\TP.dir\E8.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP.dir/E8.cpp.i"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\TP.dir\E8.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E8.cpp"
-<<
-
-CMakeFiles\TP.dir\E8.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP.dir/E8.cpp.s"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TP.dir\E8.cpp.s /c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E8.cpp"
-<<
-
-CMakeFiles\TP.dir\E9.cpp.obj: CMakeFiles\TP.dir\flags.make
-CMakeFiles\TP.dir\E9.cpp.obj: ..\E9.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/TP.dir/E9.cpp.obj"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\E9.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E9.cpp"
-<<
-
-CMakeFiles\TP.dir\E9.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP.dir/E9.cpp.i"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\TP.dir\E9.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E9.cpp"
-<<
-
-CMakeFiles\TP.dir\E9.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP.dir/E9.cpp.s"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TP.dir\E9.cpp.s /c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\E9.cpp"
-<<
-
 CMakeFiles\TP.dir\Expression.cpp.obj: CMakeFiles\TP.dir\flags.make
 CMakeFiles\TP.dir\Expression.cpp.obj: ..\Expression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/TP.dir/Expression.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TP.dir/Expression.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\Expression.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\Expression.cpp"
 <<
@@ -307,7 +117,7 @@ CMakeFiles\TP.dir\Expression.cpp.s: cmake_force
 
 CMakeFiles\TP.dir\exprmult.cpp.obj: CMakeFiles\TP.dir\flags.make
 CMakeFiles\TP.dir\exprmult.cpp.obj: ..\exprmult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/TP.dir/exprmult.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TP.dir/exprmult.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\exprmult.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\exprmult.cpp"
 <<
@@ -326,7 +136,7 @@ CMakeFiles\TP.dir\exprmult.cpp.s: cmake_force
 
 CMakeFiles\TP.dir\exprplus.cpp.obj: CMakeFiles\TP.dir\flags.make
 CMakeFiles\TP.dir\exprplus.cpp.obj: ..\exprplus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/TP.dir/exprplus.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TP.dir/exprplus.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\exprplus.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\exprplus.cpp"
 <<
@@ -343,28 +153,28 @@ CMakeFiles\TP.dir\exprplus.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TP.dir\exprplus.cpp.s /c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\exprplus.cpp"
 <<
 
-CMakeFiles\TP.dir\lexer.cpp.obj: CMakeFiles\TP.dir\flags.make
-CMakeFiles\TP.dir\lexer.cpp.obj: ..\lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/TP.dir/lexer.cpp.obj"
+CMakeFiles\TP.dir\Lexer.cpp.obj: CMakeFiles\TP.dir\flags.make
+CMakeFiles\TP.dir\Lexer.cpp.obj: ..\Lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TP.dir/Lexer.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\lexer.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\lexer.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\Lexer.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\Lexer.cpp"
 <<
 
-CMakeFiles\TP.dir\lexer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP.dir/lexer.cpp.i"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\TP.dir\lexer.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\lexer.cpp"
+CMakeFiles\TP.dir\Lexer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP.dir/Lexer.cpp.i"
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\TP.dir\Lexer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\Lexer.cpp"
 <<
 
-CMakeFiles\TP.dir\lexer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP.dir/lexer.cpp.s"
+CMakeFiles\TP.dir\Lexer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP.dir/Lexer.cpp.s"
 	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TP.dir\lexer.cpp.s /c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\lexer.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TP.dir\Lexer.cpp.s /c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\Lexer.cpp"
 <<
 
 CMakeFiles\TP.dir\States.cpp.obj: CMakeFiles\TP.dir\flags.make
 CMakeFiles\TP.dir\States.cpp.obj: ..\States.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/TP.dir/States.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TP.dir/States.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\States.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\States.cpp"
 <<
@@ -383,7 +193,7 @@ CMakeFiles\TP.dir\States.cpp.s: cmake_force
 
 CMakeFiles\TP.dir\Symbol.cpp.obj: CMakeFiles\TP.dir\flags.make
 CMakeFiles\TP.dir\Symbol.cpp.obj: ..\Symbol.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/TP.dir/Symbol.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TP.dir/Symbol.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\Symbol.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\Symbol.cpp"
 <<
@@ -402,7 +212,7 @@ CMakeFiles\TP.dir\Symbol.cpp.s: cmake_force
 
 CMakeFiles\TP.dir\ExprVal.cpp.obj: CMakeFiles\TP.dir\flags.make
 CMakeFiles\TP.dir\ExprVal.cpp.obj: ..\ExprVal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/TP.dir/ExprVal.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TP.dir/ExprVal.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\ExprVal.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\ExprVal.cpp"
 <<
@@ -421,7 +231,7 @@ CMakeFiles\TP.dir\ExprVal.cpp.s: cmake_force
 
 CMakeFiles\TP.dir\exprPar.cpp.obj: CMakeFiles\TP.dir\flags.make
 CMakeFiles\TP.dir\exprPar.cpp.obj: ..\exprPar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/TP.dir/exprPar.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TP.dir/exprPar.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TP.dir\exprPar.cpp.obj /FdCMakeFiles\TP.dir\ /FS -c "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\exprPar.cpp"
 <<
@@ -442,20 +252,10 @@ CMakeFiles\TP.dir\exprPar.cpp.s: cmake_force
 TP_OBJECTS = \
 "CMakeFiles\TP.dir\main.cpp.obj" \
 "CMakeFiles\TP.dir\Automata.cpp.obj" \
-"CMakeFiles\TP.dir\E0.cpp.obj" \
-"CMakeFiles\TP.dir\E1.cpp.obj" \
-"CMakeFiles\TP.dir\E2.cpp.obj" \
-"CMakeFiles\TP.dir\E3.cpp.obj" \
-"CMakeFiles\TP.dir\E4.cpp.obj" \
-"CMakeFiles\TP.dir\E5.cpp.obj" \
-"CMakeFiles\TP.dir\E6.cpp.obj" \
-"CMakeFiles\TP.dir\E7.cpp.obj" \
-"CMakeFiles\TP.dir\E8.cpp.obj" \
-"CMakeFiles\TP.dir\E9.cpp.obj" \
 "CMakeFiles\TP.dir\Expression.cpp.obj" \
 "CMakeFiles\TP.dir\exprmult.cpp.obj" \
 "CMakeFiles\TP.dir\exprplus.cpp.obj" \
-"CMakeFiles\TP.dir\lexer.cpp.obj" \
+"CMakeFiles\TP.dir\Lexer.cpp.obj" \
 "CMakeFiles\TP.dir\States.cpp.obj" \
 "CMakeFiles\TP.dir\Symbol.cpp.obj" \
 "CMakeFiles\TP.dir\ExprVal.cpp.obj" \
@@ -466,27 +266,17 @@ TP_EXTERNAL_OBJECTS =
 
 TP.exe: CMakeFiles\TP.dir\main.cpp.obj
 TP.exe: CMakeFiles\TP.dir\Automata.cpp.obj
-TP.exe: CMakeFiles\TP.dir\E0.cpp.obj
-TP.exe: CMakeFiles\TP.dir\E1.cpp.obj
-TP.exe: CMakeFiles\TP.dir\E2.cpp.obj
-TP.exe: CMakeFiles\TP.dir\E3.cpp.obj
-TP.exe: CMakeFiles\TP.dir\E4.cpp.obj
-TP.exe: CMakeFiles\TP.dir\E5.cpp.obj
-TP.exe: CMakeFiles\TP.dir\E6.cpp.obj
-TP.exe: CMakeFiles\TP.dir\E7.cpp.obj
-TP.exe: CMakeFiles\TP.dir\E8.cpp.obj
-TP.exe: CMakeFiles\TP.dir\E9.cpp.obj
 TP.exe: CMakeFiles\TP.dir\Expression.cpp.obj
 TP.exe: CMakeFiles\TP.dir\exprmult.cpp.obj
 TP.exe: CMakeFiles\TP.dir\exprplus.cpp.obj
-TP.exe: CMakeFiles\TP.dir\lexer.cpp.obj
+TP.exe: CMakeFiles\TP.dir\Lexer.cpp.obj
 TP.exe: CMakeFiles\TP.dir\States.cpp.obj
 TP.exe: CMakeFiles\TP.dir\Symbol.cpp.obj
 TP.exe: CMakeFiles\TP.dir\ExprVal.cpp.obj
 TP.exe: CMakeFiles\TP.dir\exprPar.cpp.obj
 TP.exe: CMakeFiles\TP.dir\build.make
 TP.exe: CMakeFiles\TP.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable TP.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable TP.exe"
 	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\TP.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\TP.dir\objects1.rsp @<<
  /out:TP.exe /implib:TP.lib /pdb:"C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\TP.pdb" /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

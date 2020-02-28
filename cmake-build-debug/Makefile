@@ -151,276 +151,6 @@ Automata.cpp.s:
 	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\Automata.cpp.s
 .PHONY : Automata.cpp.s
 
-E0.obj: E0.cpp.obj
-
-.PHONY : E0.obj
-
-# target to build an object file
-E0.cpp.obj:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E0.cpp.obj
-.PHONY : E0.cpp.obj
-
-E0.i: E0.cpp.i
-
-.PHONY : E0.i
-
-# target to preprocess a source file
-E0.cpp.i:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E0.cpp.i
-.PHONY : E0.cpp.i
-
-E0.s: E0.cpp.s
-
-.PHONY : E0.s
-
-# target to generate assembly for a file
-E0.cpp.s:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E0.cpp.s
-.PHONY : E0.cpp.s
-
-E1.obj: E1.cpp.obj
-
-.PHONY : E1.obj
-
-# target to build an object file
-E1.cpp.obj:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E1.cpp.obj
-.PHONY : E1.cpp.obj
-
-E1.i: E1.cpp.i
-
-.PHONY : E1.i
-
-# target to preprocess a source file
-E1.cpp.i:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E1.cpp.i
-.PHONY : E1.cpp.i
-
-E1.s: E1.cpp.s
-
-.PHONY : E1.s
-
-# target to generate assembly for a file
-E1.cpp.s:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E1.cpp.s
-.PHONY : E1.cpp.s
-
-E2.obj: E2.cpp.obj
-
-.PHONY : E2.obj
-
-# target to build an object file
-E2.cpp.obj:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E2.cpp.obj
-.PHONY : E2.cpp.obj
-
-E2.i: E2.cpp.i
-
-.PHONY : E2.i
-
-# target to preprocess a source file
-E2.cpp.i:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E2.cpp.i
-.PHONY : E2.cpp.i
-
-E2.s: E2.cpp.s
-
-.PHONY : E2.s
-
-# target to generate assembly for a file
-E2.cpp.s:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E2.cpp.s
-.PHONY : E2.cpp.s
-
-E3.obj: E3.cpp.obj
-
-.PHONY : E3.obj
-
-# target to build an object file
-E3.cpp.obj:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E3.cpp.obj
-.PHONY : E3.cpp.obj
-
-E3.i: E3.cpp.i
-
-.PHONY : E3.i
-
-# target to preprocess a source file
-E3.cpp.i:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E3.cpp.i
-.PHONY : E3.cpp.i
-
-E3.s: E3.cpp.s
-
-.PHONY : E3.s
-
-# target to generate assembly for a file
-E3.cpp.s:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E3.cpp.s
-.PHONY : E3.cpp.s
-
-E4.obj: E4.cpp.obj
-
-.PHONY : E4.obj
-
-# target to build an object file
-E4.cpp.obj:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E4.cpp.obj
-.PHONY : E4.cpp.obj
-
-E4.i: E4.cpp.i
-
-.PHONY : E4.i
-
-# target to preprocess a source file
-E4.cpp.i:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E4.cpp.i
-.PHONY : E4.cpp.i
-
-E4.s: E4.cpp.s
-
-.PHONY : E4.s
-
-# target to generate assembly for a file
-E4.cpp.s:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E4.cpp.s
-.PHONY : E4.cpp.s
-
-E5.obj: E5.cpp.obj
-
-.PHONY : E5.obj
-
-# target to build an object file
-E5.cpp.obj:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E5.cpp.obj
-.PHONY : E5.cpp.obj
-
-E5.i: E5.cpp.i
-
-.PHONY : E5.i
-
-# target to preprocess a source file
-E5.cpp.i:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E5.cpp.i
-.PHONY : E5.cpp.i
-
-E5.s: E5.cpp.s
-
-.PHONY : E5.s
-
-# target to generate assembly for a file
-E5.cpp.s:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E5.cpp.s
-.PHONY : E5.cpp.s
-
-E6.obj: E6.cpp.obj
-
-.PHONY : E6.obj
-
-# target to build an object file
-E6.cpp.obj:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E6.cpp.obj
-.PHONY : E6.cpp.obj
-
-E6.i: E6.cpp.i
-
-.PHONY : E6.i
-
-# target to preprocess a source file
-E6.cpp.i:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E6.cpp.i
-.PHONY : E6.cpp.i
-
-E6.s: E6.cpp.s
-
-.PHONY : E6.s
-
-# target to generate assembly for a file
-E6.cpp.s:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E6.cpp.s
-.PHONY : E6.cpp.s
-
-E7.obj: E7.cpp.obj
-
-.PHONY : E7.obj
-
-# target to build an object file
-E7.cpp.obj:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E7.cpp.obj
-.PHONY : E7.cpp.obj
-
-E7.i: E7.cpp.i
-
-.PHONY : E7.i
-
-# target to preprocess a source file
-E7.cpp.i:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E7.cpp.i
-.PHONY : E7.cpp.i
-
-E7.s: E7.cpp.s
-
-.PHONY : E7.s
-
-# target to generate assembly for a file
-E7.cpp.s:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E7.cpp.s
-.PHONY : E7.cpp.s
-
-E8.obj: E8.cpp.obj
-
-.PHONY : E8.obj
-
-# target to build an object file
-E8.cpp.obj:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E8.cpp.obj
-.PHONY : E8.cpp.obj
-
-E8.i: E8.cpp.i
-
-.PHONY : E8.i
-
-# target to preprocess a source file
-E8.cpp.i:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E8.cpp.i
-.PHONY : E8.cpp.i
-
-E8.s: E8.cpp.s
-
-.PHONY : E8.s
-
-# target to generate assembly for a file
-E8.cpp.s:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E8.cpp.s
-.PHONY : E8.cpp.s
-
-E9.obj: E9.cpp.obj
-
-.PHONY : E9.obj
-
-# target to build an object file
-E9.cpp.obj:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E9.cpp.obj
-.PHONY : E9.cpp.obj
-
-E9.i: E9.cpp.i
-
-.PHONY : E9.i
-
-# target to preprocess a source file
-E9.cpp.i:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E9.cpp.i
-.PHONY : E9.cpp.i
-
-E9.s: E9.cpp.s
-
-.PHONY : E9.s
-
-# target to generate assembly for a file
-E9.cpp.s:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E9.cpp.s
-.PHONY : E9.cpp.s
-
 ExprVal.obj: ExprVal.cpp.obj
 
 .PHONY : ExprVal.obj
@@ -474,6 +204,33 @@ Expression.s: Expression.cpp.s
 Expression.cpp.s:
 	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\Expression.cpp.s
 .PHONY : Expression.cpp.s
+
+Lexer.obj: Lexer.cpp.obj
+
+.PHONY : Lexer.obj
+
+# target to build an object file
+Lexer.cpp.obj:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\Lexer.cpp.obj
+.PHONY : Lexer.cpp.obj
+
+Lexer.i: Lexer.cpp.i
+
+.PHONY : Lexer.i
+
+# target to preprocess a source file
+Lexer.cpp.i:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\Lexer.cpp.i
+.PHONY : Lexer.cpp.i
+
+Lexer.s: Lexer.cpp.s
+
+.PHONY : Lexer.s
+
+# target to generate assembly for a file
+Lexer.cpp.s:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\Lexer.cpp.s
+.PHONY : Lexer.cpp.s
 
 States.obj: States.cpp.obj
 
@@ -610,33 +367,6 @@ exprplus.cpp.s:
 	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\exprplus.cpp.s
 .PHONY : exprplus.cpp.s
 
-lexer.obj: lexer.cpp.obj
-
-.PHONY : lexer.obj
-
-# target to build an object file
-lexer.cpp.obj:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\lexer.cpp.obj
-.PHONY : lexer.cpp.obj
-
-lexer.i: lexer.cpp.i
-
-.PHONY : lexer.i
-
-# target to preprocess a source file
-lexer.cpp.i:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\lexer.cpp.i
-.PHONY : lexer.cpp.i
-
-lexer.s: lexer.cpp.s
-
-.PHONY : lexer.s
-
-# target to generate assembly for a file
-lexer.cpp.s:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\lexer.cpp.s
-.PHONY : lexer.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -676,42 +406,15 @@ help:
 	@echo ... Automata.obj
 	@echo ... Automata.i
 	@echo ... Automata.s
-	@echo ... E0.obj
-	@echo ... E0.i
-	@echo ... E0.s
-	@echo ... E1.obj
-	@echo ... E1.i
-	@echo ... E1.s
-	@echo ... E2.obj
-	@echo ... E2.i
-	@echo ... E2.s
-	@echo ... E3.obj
-	@echo ... E3.i
-	@echo ... E3.s
-	@echo ... E4.obj
-	@echo ... E4.i
-	@echo ... E4.s
-	@echo ... E5.obj
-	@echo ... E5.i
-	@echo ... E5.s
-	@echo ... E6.obj
-	@echo ... E6.i
-	@echo ... E6.s
-	@echo ... E7.obj
-	@echo ... E7.i
-	@echo ... E7.s
-	@echo ... E8.obj
-	@echo ... E8.i
-	@echo ... E8.s
-	@echo ... E9.obj
-	@echo ... E9.i
-	@echo ... E9.s
 	@echo ... ExprVal.obj
 	@echo ... ExprVal.i
 	@echo ... ExprVal.s
 	@echo ... Expression.obj
 	@echo ... Expression.i
 	@echo ... Expression.s
+	@echo ... Lexer.obj
+	@echo ... Lexer.i
+	@echo ... Lexer.s
 	@echo ... States.obj
 	@echo ... States.i
 	@echo ... States.s
@@ -727,9 +430,6 @@ help:
 	@echo ... exprplus.obj
 	@echo ... exprplus.i
 	@echo ... exprplus.s
-	@echo ... lexer.obj
-	@echo ... lexer.i
-	@echo ... lexer.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

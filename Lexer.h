@@ -19,7 +19,7 @@ public:
 
     void setHead(int newHead);
 
-    void setTampon(Symbol *newBuffer);
+    void setBuffer(Symbol *newBuffer);
 
     const string &getStream() const;
 
