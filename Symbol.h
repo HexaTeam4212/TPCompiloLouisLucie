@@ -11,7 +11,7 @@ const string Labels[] = {"OPENPAR", "CLOSEPAR", "PLUS", "MULT", "INT", "END", "E
 class Symbol {
    public:
       explicit Symbol(int i) : ident(i) {  }
-      virtual ~Symbol() = default;
+      virtual ~Symbol() {};
       operator int() const { return ident; }
       virtual void display();
       virtual int getValue();

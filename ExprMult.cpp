@@ -4,6 +4,11 @@
 
 #include "ExprMult.h"
 
+ExprMult::~ExprMult() {
+    delete expr_gauche;
+    delete expr_droit;
+}
+
 int ExprMult::getValue() {
     return(expr_gauche->getValue() * expr_droit->getValue());
 }

@@ -13,3 +13,7 @@ int ExprPar::getValue() {
 void ExprPar::display() {
     Symbol::display();
 }
+
+ExprPar::~ExprPar() {
+    delete expr;
+}

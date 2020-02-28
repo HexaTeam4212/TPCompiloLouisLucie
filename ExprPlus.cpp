@@ -4,6 +4,11 @@
 
 #include "ExprPlus.h"
 
+ExprPlus::~ExprPlus() {
+    delete expr_droit;
+    delete expr_gauche;
+}
+
 int ExprPlus::getValue() {
     return(expr_gauche->getValue() + expr_droit->getValue());
 }

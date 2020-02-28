@@ -12,6 +12,8 @@ class ExprPar : public Expression {
 
 public:
     explicit ExprPar(Expression* e) : expr(e) {    }
+    ~ExprPar();
+
     void display() override;
     int getValue() override;
 

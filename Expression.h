@@ -12,6 +12,7 @@ using namespace std;
 class Expression : public Symbol {
 public:
     explicit Expression() : Symbol(EXPR) {}
+    virtual ~Expression() {};
 
     virtual int getValue() override;
 

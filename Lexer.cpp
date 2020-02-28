@@ -2,6 +2,8 @@
 
 Lexer::Lexer() = default;
 
+
+
 Symbol * Lexer::Consult() {
    if (!buffer) {
       if (head == stream.length()) {

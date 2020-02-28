@@ -12,6 +12,8 @@ class ExprPlus : public Expression{
 public:
 
     explicit ExprPlus(Expression* eg,Expression* ed) : expr_gauche(eg), expr_droit(ed) {}
+    ~ExprPlus();
+
     void display();
     int getValue() override;
     Expression* geteg();

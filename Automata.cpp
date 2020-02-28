@@ -3,6 +3,8 @@
 //
 #include "Automata.h"
 
+
+
 Automata::Automata(string s) {
     this->lexer.setStream(s);
     this->lexer.setBuffer(0);
