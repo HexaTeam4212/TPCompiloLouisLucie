@@ -24,10 +24,8 @@ class Symbol {
 class Integer : public Symbol {
    public:
       explicit Integer(int v) : Symbol(INT), value(v) { }
-
       int getValue() override;
 
-      ~Integer() override { }
       void display() override;
    protected:
       int value;

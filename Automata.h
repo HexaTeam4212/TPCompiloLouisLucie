@@ -7,7 +7,7 @@
 
 #include "Symbol.h"
 #include "States.h"
-#include "lexer.h"
+#include "Lexer.h"
 #include <vector>
 #include <iostream>
 #include "ExprPlus.h"

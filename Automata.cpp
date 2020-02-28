@@ -4,9 +4,9 @@
 #include "Automata.h"
 
 Automata::Automata(string s) {
-    this->lexer.setFlux(s);
+    this->lexer.setStream(s);
     this->lexer.setTampon(nullptr);
-    this->lexer.setTete(0);
+    this->lexer.setHead(0);
     this->accept = false;
 }
 

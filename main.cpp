@@ -1,5 +1,5 @@
 #include <iostream>
-#include "lexer.h"
+#include "Lexer.h"
 #include "Automata.h"
 #include "E0.h"
 
@@ -13,7 +13,7 @@ int main(void) {
 
     Automata automate(chaine);
     Lexer l = automate.getLexer();
-    Symbol *s = l.Consulter();
+    Symbol *s = l.Consult();
     State *e = new E0();
     automate.pushState(e);
 
@@ -24,7 +24,7 @@ int main(void) {
     while (!automate.isAccept()) {
         cout << endl;
        if (!e->transition(automate, s))
-           l.Avancer();
+           l.Advance();
         e = automate.getTopState();
         cout << "top symbol ";
         automate.getTopSymbole()->display();
@@ -32,7 +32,7 @@ int main(void) {
         cout << "top state ";
         automate.getTopState()->print();
         cout << endl;
-        s = l.Consulter();
+        s = l.Consult();
     }
 
    cout << ((Expression*)automate.getTopSymbole())->getval() << endl;
