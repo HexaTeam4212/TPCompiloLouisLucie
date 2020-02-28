@@ -10,6 +10,6 @@ int ExprPar::getval() {
     return(expr->getval());
 }
 
-void ExprPar::Affiche() {
-    Symbole::Affiche();
+void ExprPar::Display() {
+    Symbol::Display();
 }

@@ -4,14 +4,14 @@
 
 #ifndef TP_E9_H
 #define TP_E9_H
-#include "Automate.h"
+#include "Controller.h"
 using namespace std;
 
 class E9 : public State {
 
 public:
     void print() const override;
-    bool transition(Automate &automate, Symbole *s) override;
+    bool transition(Controller &automate, Symbol *s) override;
 };
 
 

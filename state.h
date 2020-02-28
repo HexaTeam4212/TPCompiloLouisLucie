@@ -7,10 +7,10 @@
 
 #include <string>
 #include <iostream>
-#include "Symbole.h"
+#include "Symbol.h"
 using namespace std;
 
-class Automate;
+class Controller;
 
 class State {
 public:
@@ -18,8 +18,8 @@ public:
     explicit State(string name);
     virtual ~State();
     virtual void print() const;
-    virtual bool transition(Automate & automate,
-                            Symbole * s) = 0;
+    virtual bool transition(Controller & automate,
+                            Symbol * s) = 0;
 protected:
     string name;
 };

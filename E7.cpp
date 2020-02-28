@@ -6,7 +6,7 @@
 #include "E5.h"
 #include "ExprPlus.h"
 
-bool E7::transition(Automate &automate, Symbole *s){
+bool E7::transition(Controller &automate, Symbol *s){
     switch(*s){
         case PLUS:
         {
@@ -14,7 +14,7 @@ bool E7::transition(Automate &automate, Symbole *s){
             break;
         }
         case MULT:
-            automate.decalage(s, new E5);
+            automate.shift(s, new E5);
             return false;
         case CLOSEPAR: {
             automate.reduction(3, 2);
@@ -25,7 +25,7 @@ bool E7::transition(Automate &automate, Symbole *s){
             break;
         }
         default:
-            automate.decalage(new Symbole(ERREUR), nullptr);
+            automate.shift(new Symbol(ERREUR), nullptr);
             return false;
     }
     return true;

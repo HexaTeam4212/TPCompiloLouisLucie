@@ -5,35 +5,35 @@
 
 #include <string>
 #include <iostream>
-#include "Symbole.h"
+#include "Symbol.h"
 using namespace std;
 
 class Lexer {
 public:
 
     Lexer();
-    Lexer(string s) : flux(s), tete(0), tampon(nullptr) { } //non utilisé
+    Lexer(string s) : flux(s), head(0), buffer(nullptr) { } //non utilisé
       ~Lexer() { }
 
-      Symbole * Consulter();
-      void Avancer();
+      Symbol * Read();
+      void Progress();
 
     void setFlux(const string &flux);
 
-    void setTete(int tete);
+    void setHead(int head);
 
-    void setTampon(Symbole *tampon);
+    void setBuffer(Symbol *tampon);
 
     const string &getFlux() const;
 
-    int getTete() const;
+    int getHead() const;
 
-    Symbole *getTampon() const;
+    Symbol *getTampon() const;
 
 protected:
       string flux;
-      int tete;
-      Symbole * tampon;
+      int head;
+      Symbol * buffer;
 };
 
 #endif

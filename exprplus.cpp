@@ -5,17 +5,17 @@
 #include "ExprPlus.h"
 
 int ExprPlus::getval() {
-    return(expr_gauche->getval()+expr_droit->getval());
+    return(expr_left->getval()+expr_right->getval());
 }
 
-void ExprPlus::Affiche() {
-    Symbole::Affiche();
+void ExprPlus::Display() {
+    Symbol::Display();
 }
 
-Expression* ExprPlus::geteg()
+Expression* ExprPlus::geteleft()
 {
-    return(expr_gauche);
+    return(expr_left);
 }
-Expression* ExprPlus::geted() {
-    return(expr_droit);
+Expression* ExprPlus::geteright() {
+    return(expr_right);
 }

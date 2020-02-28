@@ -7,19 +7,19 @@
 #include "E5.h"
 
 
-bool E1::transition(Automate &automate, Symbole *s){
+bool E1::transition(Controller &automate, Symbol *s){
     switch(*s){
         case PLUS:
-            automate.decalage(s, new E4);
+            automate.shift(s, new E4);
             break;
         case MULT:
-            automate.decalage(s, new E5);
+            automate.shift(s, new E5);
             break;
         case FIN:
-            automate.setAccepter(true);
+            automate.setAccepted(true);
             break;
         default:
-            automate.decalage(new Symbole(ERREUR), nullptr);
+            automate.shift(new Symbol(ERREUR), nullptr);
     }
     return false;
 }

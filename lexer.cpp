@@ -1,76 +1,74 @@
-#include "lexer.h"
+#include "Lexer.h"
 
 Lexer::Lexer() {}
 
-Symbole * Lexer::Consulter() {
-   if (!tampon) {
-      if (tete==flux.length())
-         tampon = new Symbole(FIN);
+Symbol * Lexer::Read() {
+   if (!buffer) {
+      if (head==flux.length())
+         buffer = new Symbol(FIN);
       else
       {
-         switch (flux[tete]) {
+         switch (flux[head]) {
             case '(':
-               tampon = new Symbole(OPENPAR);
-               tete++;
+               buffer = new Symbol(OPENPAR);
+               head++;
                break;
             case ')':
-               tampon = new Symbole(CLOSEPAR);
-               tete++;
+               buffer = new Symbol(CLOSEPAR);
+               head++;
                break;
             case '*':
-               tampon = new Symbole(MULT);
-               tete++;
+               buffer = new Symbol(MULT);
+               head++;
                break;
             case '+':
-               tampon = new Symbole(PLUS);
-               tete++;
+               buffer = new Symbol(PLUS);
+               head++;
                break;
             default:
-               if (flux[tete]<='9' && flux[tete]>='0') {
-                  int resultat = flux[tete]-'0';
+               if (flux[head]<='9' && flux[head]>='0') {
+                  int resultat = flux[head]-'0';
                   int i=1;
-                  while (flux[tete+i]<='9' && flux[tete+i]>='0') {
-                     resultat = resultat*10+(flux[tete+i]-'0');
+                  while (flux[head+i]<='9' && flux[head+i]>='0') {
+                     resultat = resultat*10+(flux[head+i]-'0');
                      i++;
                   }
-                  tete = tete+i;
-                  tampon = new Entier(resultat);
+                  head = head+i;
+                  buffer = new IntValue(resultat);
                }
                else {
-                  tampon = new Symbole(ERREUR);
+                  buffer = new Symbol(ERREUR);
                }
          }
       }
    }
-//   else
-//       cout << "tampon null" << endl;
-   return tampon;
+   return buffer;
 }
 
-void Lexer::Avancer() {
-   tampon = nullptr;
+void Lexer::Progress() {
+   buffer = nullptr;
 }
 
 const string &Lexer::getFlux() const {
     return flux;
 }
 
-int Lexer::getTete() const {
-    return tete;
+int Lexer::getHead() const {
+    return head;
 }
 
-Symbole *Lexer::getTampon() const {
-    return tampon;
+Symbol *Lexer::getTampon() const {
+    return buffer;
 }
 
 void Lexer::setFlux(const string &flux) {
     Lexer::flux = flux;
 }
 
-void Lexer::setTete(int tete) {
-    Lexer::tete = tete;
+void Lexer::setHead(int head) {
+    Lexer::head = head;
 }
 
-void Lexer::setTampon(Symbole *tampon) {
-    Lexer::tampon = tampon;
+void Lexer::setBuffer(Symbol *buffer) {
+    Lexer::buffer = buffer;
 }

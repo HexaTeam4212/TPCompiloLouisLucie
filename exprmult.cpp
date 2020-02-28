@@ -5,16 +5,9 @@
 #include "ExprMult.h"
 
 int ExprMult::getval() {
-    return(expr_gauche->getval()*expr_droit->getval());
+    return(expr_left->getval()*expr_right->getval());
 }
 
-void ExprMult::Affiche() {
-    Symbole::Affiche();
-}
-
-Expression* ExprMult::geteg(){
-    return(expr_gauche);
-}
-Expression* ExprMult::geted() {
-    return(expr_droit);
+void ExprMult::Display() {
+    Symbol::Display();
 }

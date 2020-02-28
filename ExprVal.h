@@ -13,7 +13,7 @@ class ExprVal : public Expression {
 public:
     explicit ExprVal(int val) : val(val), Expression() {}
 
-    void Affiche() override;
+    void Display() override;
 
     int getval() override;
 

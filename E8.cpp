@@ -5,7 +5,7 @@
 #include "E8.h"
 #include "E5.h"
 
-bool E8::transition(Automate &automate, Symbole *s){
+bool E8::transition(Controller &automate, Symbol *s){
     switch(*s){
         case PLUS:
         {
@@ -24,7 +24,7 @@ bool E8::transition(Automate &automate, Symbole *s){
             break;
         }
         default:
-            automate.decalage(new Symbole(ERREUR), nullptr);
+            automate.shift(new Symbol(ERREUR), nullptr);
             return false;
     }
     return true;

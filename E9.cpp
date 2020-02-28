@@ -4,12 +4,11 @@
 
 #include "E9.h"
 
-bool E9::transition(Automate &automate, Symbole *s){
+bool E9::transition(Controller &automate, Symbol *s){
     switch(*s){
         case PLUS:
         {
             automate.reduction(3, 4);
-//            automate.reduction(3, true);
             break;
         }
         case MULT:
@@ -24,7 +23,7 @@ bool E9::transition(Automate &automate, Symbole *s){
             break;
         }
         default:
-            automate.decalage(new Symbole(ERREUR), nullptr);
+            automate.shift(new Symbol(ERREUR), nullptr);
             return false;
     }
     return true;

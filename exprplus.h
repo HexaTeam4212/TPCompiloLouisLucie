@@ -5,21 +5,20 @@
 #ifndef TP_EXPRPLUS_H
 #define TP_EXPRPLUS_H
 
-#include "Symbole.h"
 #include "Expression.h"
 
 class ExprPlus : public Expression{
 public:
 
-    explicit ExprPlus(Expression* eg,Expression* ed) : expr_gauche(eg), expr_droit(ed) {}
-    void Affiche();
+    explicit ExprPlus(Expression* eleft,Expression* eright) : expr_left(eleft), expr_right(eright) {}
+    void Display();
     int getval() override;
-    Expression* geteg();
-    Expression* geted();
+    Expression* geteleft();
+    Expression* geteright();
 
 private:
-    Expression* expr_gauche;
-    Expression* expr_droit;
+    Expression* expr_left;
+    Expression* expr_right;
 };
 
 

@@ -5,7 +5,7 @@
 #include "E3.h"
 
 
-bool E3::transition(Automate &automate, Symbole *s){
+bool E3::transition(Controller &automate, Symbol *s){
     switch(*s){
         case PLUS:
             automate.reduction(1, 5);
@@ -20,7 +20,7 @@ bool E3::transition(Automate &automate, Symbole *s){
             automate.reduction(1, 5);
             break;
         default:
-            automate.decalage(new Symbole(ERREUR), nullptr);
+            automate.shift(new Symbol(ERREUR), nullptr);
     }
     return true;
 }

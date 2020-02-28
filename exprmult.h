@@ -5,21 +5,19 @@
 #ifndef TP_EXPRMULT_H
 #define TP_EXPRMULT_H
 
-#include "Symbole.h"
+
 #include "Expression.h"
 
 class ExprMult : public Expression{
 public:
 
-    explicit ExprMult(Expression* eg,Expression* ed) : expr_gauche(eg), expr_droit(ed) {}
+    explicit ExprMult(Expression* eleft,Expression* eright) : expr_left(eleft), expr_right(eright) {}
     int getval() override;
-    void Affiche() ;
-    Expression* geteg();
-    Expression* geted();
+    void Display() ;
 
 private:
-    Expression* expr_gauche;
-    Expression* expr_droit;
+    Expression* expr_left;
+    Expression* expr_right;
 
 };
 

@@ -5,14 +5,13 @@
 #ifndef TP_EXPRPAR_H
 #define TP_EXPRPAR_H
 
-#include "Symbole.h"
 #include "Expression.h"
 
 class ExprPar : public Expression {
 
 public:
     explicit ExprPar(Expression* e) : expr(e) {    }
-    void Affiche() override;
+    void Display() override;
     int getval() override;
 
 protected :

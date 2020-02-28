@@ -7,19 +7,19 @@
 #include "E2.h"
 #include "E8.h"
 
-bool E5::transition(Automate &automate, Symbole *s){
+bool E5::transition(Controller &automate, Symbol *s){
     switch(*s){
         case INT:
-            automate.decalage(s, new E3);
+            automate.shift(s, new E3);
             break;
         case OPENPAR:
-            automate.decalage(s, new E2);
+            automate.shift(s, new E2);
             break;
         case EXPR:
-            automate.decalage(s, new E8);
+            automate.shift(s, new E8);
             break;
         default:
-            automate.decalage(new Symbole(ERREUR), nullptr);
+            automate.shift(new Symbol(ERREUR), nullptr);
     }
     return false;
 }
