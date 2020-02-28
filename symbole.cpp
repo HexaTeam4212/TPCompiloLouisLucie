@@ -1,4 +1,5 @@
-#include "symbole.h"
+
+#include "Symbole.h"
 #include <iostream>
 
 void Symbole::Affiche() {

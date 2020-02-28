@@ -5,13 +5,15 @@
 #ifndef TP_AUTOMATE_H
 #define TP_AUTOMATE_H
 
-#include "symbole.h"
-#include "state.h"
+#include "Symbole.h"
+#include "State.h"
 #include "lexer.h"
 #include <vector>
 #include <iostream>
-#include "exprplus.h"
-#include "exprmult.h"
+#include "ExprPlus.h"
+#include "ExprMult.h"
+#include "ExprPar.h"
+#include "ExprVal.h"
 
 using namespace std;
 
@@ -24,6 +26,7 @@ public:
     void popAndDestroySymbol();
     void pushState(State* s);
     State* getTopState();
+    int parcours(Expression* e);
     Symbole* getTopSymbole();
     void printSymbolStack();
     void printStateStack();
@@ -38,6 +41,7 @@ public:
 private:
     vector<Symbole*> symbolstack;
     vector<State*> statestack;
+    Expression* expr_arbre;
     Lexer lexer;
     bool accepter;
 };

@@ -4,7 +4,7 @@
 
 #ifndef TP_E6_H
 #define TP_E6_H
-#include "automate.h"
+#include "Automate.h"
 using namespace std;
 
 class E6 : public State {

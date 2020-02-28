@@ -5,18 +5,21 @@
 #ifndef TP_EXPRPLUS_H
 #define TP_EXPRPLUS_H
 
-#include "symbole.h"
-#include "expr.h"
+#include "Symbole.h"
+#include "Expression.h"
 
-class ExprPlus : Expr{
+class ExprPlus : public Expression{
 public:
 
-    //ExprPlus(const Entier &s1, const Entier &s2); //double addition ça marche ?
-    int eval();
+    explicit ExprPlus(Expression* eg,Expression* ed) : expr_gauche(eg), expr_droit(ed) {}
+    void Affiche();
+    int getval() override;
+    Expression* geteg();
+    Expression* geted();
 
 private:
-    Entier s1;
-    Entier s2;
+    Expression* expr_gauche;
+    Expression* expr_droit;
 };
 
 

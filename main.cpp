@@ -1,13 +1,21 @@
 #include <iostream>
 #include "lexer.h"
-#include "automate.h"
+#include "Automate.h"
 #include "E0.h"
 
 class Lexer;
 
 int main(void) {
-    string chaine("(1+34)*123"); // TODO: remplacer par user input
-//    string chaine("1+2"); // TODO: remplacer par user input
+    //string chaine("(1+34)*123"); // TODO: remplacer par user input
+    //string chaine("(1+2)"); // TODO: remplacer par user input
+    //string chaine("1+34*123");
+//    string chaine("1+((34)*123)+(3+2)*((2))*(4+(7*5))");
+    //string chaine("((1))");
+    //string chaine("(7+5)*2");
+    string chaine;
+
+    cout << "Please enter an expresssion to evaluate" << endl;
+    cin >> chaine;
 
     Automate automate(chaine);
     Lexer l = automate.getLexer();
@@ -20,7 +28,6 @@ int main(void) {
     cout << endl;
 
     while (!automate.isAccepter()) {
-
         cout << endl;
        if (!e->transition(automate, s))
            l.Avancer();
@@ -34,11 +41,7 @@ int main(void) {
         s = l.Consulter();
     }
 
-    cout << "state stack" << endl;
-    automate.printStateStack();
-    cout << "symbol stack" << endl;
-    automate.printSymbolStack();
-
+   cout << ((Expression*)automate.getTopSymbole())->getval() << endl;
     return 0;
 }
 

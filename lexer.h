@@ -4,7 +4,7 @@
 #include <string>
 #include <iostream>
 
-#include "symbole.h"
+#include "Symbole.h"
 using namespace std;
 
 class Lexer {

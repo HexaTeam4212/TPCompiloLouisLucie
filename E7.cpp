@@ -4,8 +4,7 @@
 
 #include "E7.h"
 #include "E5.h"
-#include "expr.h"
-#include "exprplus.h"
+#include "ExprPlus.h"
 
 bool E7::transition(Automate &automate, Symbole *s){
     switch(*s){
@@ -25,6 +24,9 @@ bool E7::transition(Automate &automate, Symbole *s){
             automate.reduction(3, 2);
             break;
         }
+        default:
+            automate.decalage(new Symbole(ERREUR), nullptr);
+            return false;
     }
     return true;
 }

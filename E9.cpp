@@ -23,6 +23,9 @@ bool E9::transition(Automate &automate, Symbole *s){
             automate.reduction(3, 4);
             break;
         }
+        default:
+            automate.decalage(new Symbole(ERREUR), nullptr);
+            return false;
     }
     return true;
 }

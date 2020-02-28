@@ -1,8 +1,7 @@
 //
 // Created by Louis on 18/02/2020.
 //
-
-#include "automate.h"
+#include "Automate.h"
 
 Automate::Automate(string s) {
     this->lexer.setFlux(s);
@@ -17,25 +16,19 @@ void Automate::decalage(Symbole* s, State* e){
 }
 void Automate::reduction(int n, int reductionNum){
     if (reductionNum == 2 || reductionNum == 3){
-        Symbole* s1 = this->popSymbol();
+        Symbole* e1 = this->popSymbol();
         this->popAndDestroySymbol();
-        Symbole* s2 = this->popSymbol();
+        Symbole* e2 = this->popSymbol();
         for (int i=0;i<n;i++)
         {
             delete(statestack.back());
             statestack.pop_back();
         }
         if (reductionNum == 2){
-            //stocker dans l'arbre
-            int s1val = (s1)->getValeur();
-            int s2val = (s2)->getValeur();
-            int sum = s1val + s2val;
-            statestack.back()->transition(*this, new Expr(sum));
+            statestack.back()->transition(*this, new ExprPlus((Expression*)e1,(Expression*)e2));
         }
         else if (reductionNum == 3) {
-            //stocker dans l'arbre
-            int product = (s1)->getValeur() * (s2)->getValeur();
-            statestack.back()->transition(*this, new Expr(product));
+            statestack.back()->transition(*this, new ExprMult((Expression*)e1,(Expression*)e2));
         }
     }
     else if (reductionNum == 5){
@@ -44,20 +37,48 @@ void Automate::reduction(int n, int reductionNum){
         symbolstack.pop_back();
         delete(this->statestack.back());
         statestack.pop_back();
-        statestack.back()->transition(*this, new Expr(val));
+        statestack.back()->transition(*this, new ExprVal(val));
     }
     else if (reductionNum == 4) {
+        cout <<"je suis dans 4"<< endl ;
         int val = -1;
-        for (int i = 0; i < n; i++) {
-            if (i == 1)
-                val = symbolstack.back()->getValeur();
+        Symbole* expr;
+        for (int i = 0; i < n-1; i++) {
+            if (i == 1) {
+                expr =  this -> symbolstack.back();
+                symbolstack.pop_back();
+            }
             delete (this->symbolstack.back());
             symbolstack.pop_back();
             delete (this->statestack.back());
             statestack.pop_back();
         }
-        statestack.back()->transition(*this, new Expr(val));
+        delete (this->statestack.back());
+        statestack.pop_back();
+        statestack.back()->transition(*this,new ExprPar((Expression*) expr));
     }
+}
+
+
+int Automate::parcours(Expression* e) {
+
+    if (e!= nullptr) {
+        // si Expression empiler type sinon
+        if (e->getval()==-1)
+        {
+
+
+        }
+        else
+        {
+            return(e->getval());
+        }
+
+    }
+    else {
+        cout << "pointeur nul" << endl;
+    }
+
 }
 
 Symbole* Automate::popSymbol() {
@@ -88,7 +109,6 @@ const Lexer &Automate::getLexer() const {
 }
 
 void Automate::printSymbolStack() {
-    cout << "symbol stack size : " << this->symbolstack.size() << endl;
     for (auto & it : this->symbolstack){
         it->Affiche();
         cout << endl;
@@ -96,7 +116,6 @@ void Automate::printSymbolStack() {
 }
 
 void Automate::printStateStack() {
-    cout << "state stack size : " << this->statestack.size() << endl;
     for (auto & it : this->statestack){
         it->print();
         cout << endl;

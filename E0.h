@@ -5,8 +5,8 @@
 #ifndef TP_E0_H
 #define TP_E0_H
 
-#include "automate.h"
-#include "state.h"
+#include "Automate.h"
+#include "State.h"
 using namespace std;
 
 class E0: public State {

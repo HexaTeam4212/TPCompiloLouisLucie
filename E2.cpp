@@ -15,9 +15,12 @@ bool E2::transition(Automate &automate, Symbole *s){
             break;
         case OPENPAR:
             automate.decalage(s, new E2);
+            break;
         case EXPR:
             automate.decalage(s, new E6);
             break;
+        default:
+            automate.decalage(new Symbole(ERREUR), nullptr);
     }
     return false;
 }
