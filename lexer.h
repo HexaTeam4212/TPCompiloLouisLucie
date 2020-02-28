@@ -1,7 +1,7 @@
 #ifndef TP_LEXER_H
 #define TP_LEXER_H
 
-#define nullptr NULL
+//#define nullptr NULL
 
 #include <string>
 #include <iostream>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/ShareLinux/Gram/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP">
+				<Option output="C:/ShareLinux/Gram/cmake-build-debug/TP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/ShareLinux/Gram/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 TP"/>
+					<CompileFile command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP/fast">
+				<Option output="C:/ShareLinux/Gram/cmake-build-debug/TP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/ShareLinux/Gram/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 TP/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/ShareLinux/Gram/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/ShareLinux/Gram/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/ShareLinux/Gram/Automate.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/Automate.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E0.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E0.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E1.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E1.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E2.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E2.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E3.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E3.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E4.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E4.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E5.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E5.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E6.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E6.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E7.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E7.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E8.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E8.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E9.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/E9.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/ExprMult.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/ExprMult.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/ExprPar.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/ExprPar.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/ExprPlus.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/ExprPlus.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/ExprVal.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/ExprVal.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/Expression.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/Expression.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/State.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/State.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/Symbole.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/Symbole.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/lexer.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/lexer.h">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/main.cpp">
+			<Option target="TP"/>
+		</Unit>
+		<Unit filename="C:/ShareLinux/Gram/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

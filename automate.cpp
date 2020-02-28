@@ -40,7 +40,6 @@ void Automate::reduction(int n, int reductionNum){
         statestack.back()->transition(*this, new ExprVal(val));
     }
     else if (reductionNum == 4) {
-        cout <<"je suis dans 4"<< endl ;
         int val = -1;
         Symbole* expr;
         for (int i = 0; i < n-1; i++) {
