@@ -8,8 +8,8 @@ int ExprMult::getval() {
     return(expr_gauche->getval()*expr_droit->getval());
 }
 
-void ExprMult::Affiche() {
-    Symbole::Affiche();
+void ExprMult::display() {
+    Symbol::display();
 }
 
 Expression* ExprMult::geteg(){

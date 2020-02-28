@@ -5,7 +5,7 @@
 #ifndef TP_AUTOMATA_H
 #define TP_AUTOMATA_H
 
-#include "Symbole.h"
+#include "Symbol.h"
 #include "States.h"
 #include "lexer.h"
 #include <vector>
@@ -20,13 +20,13 @@ using namespace std;
 class Automata {
 public:
     Automata(string s);
-    void decalage(Symbole* s, State* e);
+    void decalage(Symbol* s, State* e);
     void reduction(int n, int reductionNum);
-    Symbole* popSymbol();
+    Symbol* popSymbol();
     void popAndDestroySymbol();
     void pushState(State* s);
     State* getTopState();
-    Symbole* getTopSymbole();
+    Symbol* getTopSymbole();
     void printSymbolStack();
     void printStateStack();
 
@@ -38,7 +38,7 @@ public:
     const Lexer &getLexer() const;
 
 private:
-    vector<Symbole*> symbolstack;
+    vector<Symbol*> symbolstack;
     vector<State*> statestack;
     Lexer lexer;
     bool accept;

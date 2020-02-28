@@ -13,7 +13,7 @@ int main(void) {
 
     Automata automate(chaine);
     Lexer l = automate.getLexer();
-    Symbole *s = l.Consulter();
+    Symbol *s = l.Consulter();
     State *e = new E0();
     automate.pushState(e);
 
@@ -27,7 +27,7 @@ int main(void) {
            l.Avancer();
         e = automate.getTopState();
         cout << "top symbol ";
-        automate.getTopSymbole()->Affiche();
+        automate.getTopSymbole()->display();
         cout << endl;
         cout << "top state ";
         automate.getTopState()->print();

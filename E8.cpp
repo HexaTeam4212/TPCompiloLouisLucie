@@ -5,7 +5,7 @@
 #include "E8.h"
 #include "E5.h"
 
-bool E8::transition(Automata &automate, Symbole *s){
+bool E8::transition(Automata &automate, Symbol *s){
     switch(*s){
         case PLUS:
         {
@@ -19,12 +19,12 @@ bool E8::transition(Automata &automate, Symbole *s){
             automate.reduction(3, 3);
             break;
         }
-        case FIN: {
+        case END: {
             automate.reduction(3, 3);
             break;
         }
         default:
-            automate.decalage(new Symbole(ERREUR), nullptr);
+            automate.decalage(new Symbol(ERROR), nullptr);
             return false;
     }
     return true;

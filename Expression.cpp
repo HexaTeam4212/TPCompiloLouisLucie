@@ -6,8 +6,8 @@
 
 
 
-void Expression::Affiche() {
-    Symbole::Affiche();
+void Expression::display() {
+    Symbol::display();
 }
 
 int Expression::getval() {

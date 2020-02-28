@@ -8,7 +8,7 @@ int ExprVal::getval() {
     return val;
 }
 
-void ExprVal::Affiche() {
-    Symbole::Affiche();
+void ExprVal::display() {
+    Symbol::display();
     cout << "(" << val << ")" << endl;
 }

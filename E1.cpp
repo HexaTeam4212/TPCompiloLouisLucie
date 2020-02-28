@@ -7,7 +7,7 @@
 #include "E5.h"
 
 
-bool E1::transition(Automata &automate, Symbole *s){
+bool E1::transition(Automata &automate, Symbol *s){
     switch(*s){
         case PLUS:
             automate.decalage(s, new E4);
@@ -15,11 +15,11 @@ bool E1::transition(Automata &automate, Symbole *s){
         case MULT:
             automate.decalage(s, new E5);
             break;
-        case FIN:
+        case END:
             automate.setAccept(true);
             break;
         default:
-            automate.decalage(new Symbole(ERREUR), nullptr);
+            automate.decalage(new Symbol(ERROR), nullptr);
     }
     return false;
 }

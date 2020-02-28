@@ -4,7 +4,7 @@
 
 #include "E9.h"
 
-bool E9::transition(Automata &automate, Symbole *s){
+bool E9::transition(Automata &automate, Symbol *s){
     switch(*s){
         case PLUS:
         {
@@ -18,12 +18,12 @@ bool E9::transition(Automata &automate, Symbole *s){
             automate.reduction(3, 4);
             break;
         }
-        case FIN: {
+        case END: {
             automate.reduction(3, 4);
             break;
         }
         default:
-            automate.decalage(new Symbole(ERREUR), nullptr);
+            automate.decalage(new Symbol(ERROR), nullptr);
             return false;
     }
     return true;

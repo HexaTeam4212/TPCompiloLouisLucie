@@ -10,15 +10,15 @@ Automata::Automata(string s) {
     this->accept = false;
 }
 
-void Automata::decalage(Symbole* s, State* e){
+void Automata::decalage(Symbol* s, State* e){
     this->symbolstack.push_back(s);
     this->statestack.push_back(e);
 }
 void Automata::reduction(int n, int reductionNum){
     if (reductionNum == 2 || reductionNum == 3){
-        Symbole* e1 = this->popSymbol();
+        Symbol* e1 = this->popSymbol();
         this->popAndDestroySymbol();
-        Symbole* e2 = this->popSymbol();
+        Symbol* e2 = this->popSymbol();
         for (int i=0;i<n;i++)
         {
             delete(statestack.back());
@@ -32,7 +32,7 @@ void Automata::reduction(int n, int reductionNum){
         }
     }
     else if (reductionNum == 5){
-        int val = symbolstack.back()->getValeur();
+        int val = symbolstack.back()->getValue();
         delete(this->symbolstack.back());
         symbolstack.pop_back();
         delete(this->statestack.back());
@@ -40,7 +40,7 @@ void Automata::reduction(int n, int reductionNum){
         statestack.back()->transition(*this, new ExprVal(val));
     }
     else if (reductionNum == 4) {
-        Symbole* expr = nullptr;
+        Symbol* expr = nullptr;
         for (int i = 0; i < n-1; i++) {
             if (i == 1) {
                 expr =  this -> symbolstack.back();
@@ -57,8 +57,8 @@ void Automata::reduction(int n, int reductionNum){
     }
 }
 
-Symbole* Automata::popSymbol() {
-    Symbole* lastSymbol = symbolstack.back();
+Symbol* Automata::popSymbol() {
+    Symbol* lastSymbol = symbolstack.back();
     symbolstack.pop_back();
     return lastSymbol;
 }
@@ -76,7 +76,7 @@ State* Automata::getTopState() {
     return this->statestack.back();
 }
 
-Symbole* Automata::getTopSymbole() {
+Symbol* Automata::getTopSymbole() {
     return this->symbolstack.back();
 }
 
@@ -85,8 +85,8 @@ const Lexer &Automata::getLexer() const {
 }
 
 void Automata::printSymbolStack() {
-    for (Symbole* it : this->symbolstack){
-        it->Affiche();
+    for (Symbol* it : this->symbolstack){
+        it->display();
         cout << endl;
     }
 }

@@ -7,7 +7,7 @@
 
 #include <string>
 #include <iostream>
-#include "symbole.h"
+#include "Symbol.h"
 #include "Automata.h"
 using namespace std;
 
@@ -30,31 +30,31 @@ public:
     virtual ~State();
     virtual void print() const;
     virtual bool transition(Automata & automate,
-                            Symbole * s) = 0;
+                            Symbol * s) = 0;
 };
 
 class E0: public State {
 public:
     void print() const override;
-    bool transition(Automata &automate, Symbole *s) override ;
+    bool transition(Automata &automate, Symbol *s) override ;
 };
 
 class E1 : public State {
 public:
     void print() const override;
-    bool transition(Automata &automate, Symbole *s) override;
+    bool transition(Automata &automate, Symbol *s) override;
 };
 
 class E2 : public State {
 public:
     void print() const override;
-    bool transition(Automata &automate, Symbole *s) override ;
+    bool transition(Automata &automate, Symbol *s) override ;
 };
 
 class E3 : public State {
 public:
     void print() const override;
-    bool transition(Automata &automate, Symbole *s) override;
+    bool transition(Automata &automate, Symbol *s) override;
 
 };
 
@@ -62,7 +62,7 @@ class E4 : public State {
 
 public:
     void print() const override;
-    bool transition(Automata &automate, Symbole *s) override;
+    bool transition(Automata &automate, Symbol *s) override;
 
 };
 
@@ -70,27 +70,27 @@ class E5 : public State {
 
 public:
     void print() const override;
-    bool transition(Automata &automate, Symbole *s) override ;
+    bool transition(Automata &automate, Symbol *s) override ;
 };
 
 class E6 : public State {
 
 public:
     void print() const override;
-    bool transition(Automata &automate, Symbole *s) override ;
+    bool transition(Automata &automate, Symbol *s) override ;
 };
 
 class E7 : public State {
 
 public:
     void print() const override;
-    bool transition(Automata &automate, Symbole *s) override ;
+    bool transition(Automata &automate, Symbol *s) override ;
 };
 
 class E8 : public State {
 public:
     void print() const override;
-    bool transition(Automata &automate, Symbole *s) override ;
+    bool transition(Automata &automate, Symbol *s) override ;
 
 };
 
@@ -98,7 +98,7 @@ class E9 : public State {
 
 public:
     void print() const override;
-    bool transition(Automata &automate, Symbole *s) override;
+    bool transition(Automata &automate, Symbol *s) override;
 };
 
 #endif //TP_STATES_H

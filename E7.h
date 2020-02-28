@@ -11,7 +11,7 @@ class E7 : public State {
 
 public:
     void print() const override;
-    bool transition(Automata &automate, Symbole *s) override ;
+    bool transition(Automata &automate, Symbol *s) override ;
 };
 
 

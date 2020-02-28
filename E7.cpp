@@ -6,7 +6,7 @@
 #include "E5.h"
 #include "ExprPlus.h"
 
-bool E7::transition(Automata &automate, Symbole *s){
+bool E7::transition(Automata &automate, Symbol *s){
     switch(*s){
         case PLUS:
         {
@@ -20,12 +20,12 @@ bool E7::transition(Automata &automate, Symbole *s){
             automate.reduction(3, 2);
             break;
         }
-        case FIN: {
+        case END: {
             automate.reduction(3, 2);
             break;
         }
         default:
-            automate.decalage(new Symbole(ERREUR), nullptr);
+            automate.decalage(new Symbol(ERROR), nullptr);
             return false;
     }
     return true;

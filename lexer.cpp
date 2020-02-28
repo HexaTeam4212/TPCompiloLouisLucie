@@ -2,27 +2,27 @@
 
 Lexer::Lexer() {}
 
-Symbole * Lexer::Consulter() {
+Symbol * Lexer::Consulter() {
    if (!tampon) {
       if (tete==flux.length())
-         tampon = new Symbole(FIN);
+         tampon = new Symbol(END);
       else
       {
          switch (flux[tete]) {
             case '(':
-               tampon = new Symbole(OPENPAR);
+               tampon = new Symbol(OPENPAR);
                tete++;
                break;
             case ')':
-               tampon = new Symbole(CLOSEPAR);
+               tampon = new Symbol(CLOSEPAR);
                tete++;
                break;
             case '*':
-               tampon = new Symbole(MULT);
+               tampon = new Symbol(MULT);
                tete++;
                break;
             case '+':
-               tampon = new Symbole(PLUS);
+               tampon = new Symbol(PLUS);
                tete++;
                break;
             default:
@@ -34,10 +34,10 @@ Symbole * Lexer::Consulter() {
                      i++;
                   }
                   tete = tete+i;
-                  tampon = new Entier(resultat);
+                  tampon = new Integer(resultat);
                }
                else {
-                  tampon = new Symbole(ERREUR);
+                  tampon = new Symbol(ERROR);
                }
          }
       }
@@ -59,7 +59,7 @@ int Lexer::getTete() const {
     return tete;
 }
 
-Symbole *Lexer::getTampon() const {
+Symbol *Lexer::getTampon() const {
     return tampon;
 }
 
@@ -71,6 +71,6 @@ void Lexer::setTete(int tete) {
     Lexer::tete = tete;
 }
 
-void Lexer::setTampon(Symbole *tampon) {
+void Lexer::setTampon(Symbol *tampon) {
     Lexer::tampon = tampon;
 }

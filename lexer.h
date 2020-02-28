@@ -5,7 +5,7 @@
 
 #include <string>
 #include <iostream>
-#include "Symbole.h"
+#include "Symbol.h"
 using namespace std;
 
 class Lexer {
@@ -15,25 +15,25 @@ public:
     Lexer(string s) : flux(s), tete(0), tampon(nullptr) { } //non utilisé
       ~Lexer() { }
 
-      Symbole * Consulter();
+      Symbol * Consulter();
       void Avancer();
 
     void setFlux(const string &flux);
 
     void setTete(int tete);
 
-    void setTampon(Symbole *tampon);
+    void setTampon(Symbol *tampon);
 
     const string &getFlux() const;
 
     int getTete() const;
 
-    Symbole *getTampon() const;
+    Symbol *getTampon() const;
 
 protected:
       string flux;
       int tete;
-      Symbole * tampon;
+      Symbol * tampon;
 };
 
 #endif
