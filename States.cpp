@@ -10,7 +10,7 @@ void State::print() const {}
 
 State::State(const string &name) {}
 
-bool E0::transition(Automate &automate, Symbole *s){
+bool E0::transition(Automata &automate, Symbole *s){
     switch(*s){
         case EXPR:
             automate.decalage(s, new E1);
@@ -31,7 +31,7 @@ void E0::print() const {
     cout << 0 << endl;
 }
 
-bool E1::transition(Automate &automate, Symbole *s){
+bool E1::transition(Automata &automate, Symbole *s){
     switch(*s){
         case PLUS:
             automate.decalage(s, new E4);
@@ -40,7 +40,7 @@ bool E1::transition(Automate &automate, Symbole *s){
             automate.decalage(s, new E5);
             break;
         case FIN:
-            automate.setAccepter(true);
+            automate.setAccept(true);
             break;
         default:
             automate.decalage(new Symbole(ERREUR), nullptr);
@@ -51,7 +51,7 @@ void E1::print() const {
     cout << 1 << endl;
 }
 
-bool E2::transition(Automate &automate, Symbole *s){
+bool E2::transition(Automata &automate, Symbole *s){
     switch(*s){
         case INT:
             automate.decalage(s, new E3);
@@ -72,7 +72,7 @@ void E2::print() const {
     cout << 2 << endl;
 }
 
-bool E3::transition(Automate &automate, Symbole *s){
+bool E3::transition(Automata &automate, Symbole *s){
     switch(*s){
         case PLUS:
             automate.reduction(1, 5);
@@ -96,7 +96,7 @@ void E3::print() const {
     cout << 3 << endl;
 }
 
-bool E4::transition(Automate &automate, Symbole *s){
+bool E4::transition(Automata &automate, Symbole *s){
     switch(*s){
         case INT:
             automate.decalage(s, new E3);
@@ -117,7 +117,7 @@ void E4::print() const {
     cout << 4 << endl;
 }
 
-bool E5::transition(Automate &automate, Symbole *s){
+bool E5::transition(Automata &automate, Symbole *s){
     switch(*s){
         case INT:
             automate.decalage(s, new E3);
@@ -138,7 +138,7 @@ void E5::print() const {
     cout << 5 << endl;
 }
 
-bool E6::transition(Automate &automate, Symbole *s){
+bool E6::transition(Automata &automate, Symbole *s){
     switch(*s){
         case PLUS:
             automate.decalage(s, new E4);
@@ -159,7 +159,7 @@ void E6::print() const {
     cout << 6 << endl;
 }
 
-bool E7::transition(Automate &automate, Symbole *s){
+bool E7::transition(Automata &automate, Symbole *s){
     switch(*s){
         case PLUS:
         {
@@ -188,7 +188,7 @@ void E7::print() const {
     cout << 7 << endl;
 }
 
-bool E8::transition(Automate &automate, Symbole *s){
+bool E8::transition(Automata &automate, Symbole *s){
     switch(*s){
         case PLUS:
         {
@@ -217,7 +217,7 @@ void E8::print() const {
     cout << 8 << endl;
 }
 
-bool E9::transition(Automate &automate, Symbole *s){
+bool E9::transition(Automata &automate, Symbole *s){
     switch(*s){
         case PLUS:
         {

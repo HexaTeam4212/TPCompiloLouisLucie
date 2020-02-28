@@ -2,8 +2,8 @@
 // Created by Louis on 18/02/2020.
 //
 
-#ifndef TP_AUTOMATE_H
-#define TP_AUTOMATE_H
+#ifndef TP_AUTOMATA_H
+#define TP_AUTOMATA_H
 
 #include "Symbole.h"
 #include "States.h"
@@ -17,9 +17,9 @@
 
 using namespace std;
 
-class Automate {
+class Automata {
 public:
-    Automate(string s);
+    Automata(string s);
     void decalage(Symbole* s, State* e);
     void reduction(int n, int reductionNum);
     Symbole* popSymbol();
@@ -30,9 +30,9 @@ public:
     void printSymbolStack();
     void printStateStack();
 
-    bool isAccepter() const;
+    bool isAccept() const;
 
-    void setAccepter(bool accepter);
+    void setAccept(bool newAccept);
 
 
     const Lexer &getLexer() const;
@@ -40,10 +40,9 @@ public:
 private:
     vector<Symbole*> symbolstack;
     vector<State*> statestack;
-    Expression* expr_arbre;
     Lexer lexer;
-    bool accepter;
+    bool accept;
 };
 
 
-#endif //TP_AUTOMATE_H
+#endif //TP_AUTOMATA_H

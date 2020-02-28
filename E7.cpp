@@ -6,7 +6,7 @@
 #include "E5.h"
 #include "ExprPlus.h"
 
-bool E7::transition(Automate &automate, Symbole *s){
+bool E7::transition(Automata &automate, Symbole *s){
     switch(*s){
         case PLUS:
         {

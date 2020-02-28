@@ -1,20 +1,20 @@
 //
 // Created by Louis on 18/02/2020.
 //
-#include "Automate.h"
+#include "Automata.h"
 
-Automate::Automate(string s) {
+Automata::Automata(string s) {
     this->lexer.setFlux(s);
     this->lexer.setTampon(nullptr);
     this->lexer.setTete(0);
-    this->accepter = false;
+    this->accept = false;
 }
 
-void Automate::decalage(Symbole* s, State* e){
+void Automata::decalage(Symbole* s, State* e){
     this->symbolstack.push_back(s);
     this->statestack.push_back(e);
 }
-void Automate::reduction(int n, int reductionNum){
+void Automata::reduction(int n, int reductionNum){
     if (reductionNum == 2 || reductionNum == 3){
         Symbole* e1 = this->popSymbol();
         this->popAndDestroySymbol();
@@ -40,8 +40,7 @@ void Automate::reduction(int n, int reductionNum){
         statestack.back()->transition(*this, new ExprVal(val));
     }
     else if (reductionNum == 4) {
-        int val = -1;
-        Symbole* expr;
+        Symbole* expr = nullptr;
         for (int i = 0; i < n-1; i++) {
             if (i == 1) {
                 expr =  this -> symbolstack.back();
@@ -58,51 +57,51 @@ void Automate::reduction(int n, int reductionNum){
     }
 }
 
-Symbole* Automate::popSymbol() {
+Symbole* Automata::popSymbol() {
     Symbole* lastSymbol = symbolstack.back();
     symbolstack.pop_back();
     return lastSymbol;
 }
 
-void Automate::popAndDestroySymbol() {
+void Automata::popAndDestroySymbol() {
     delete(this->symbolstack.back());
     symbolstack.pop_back();
 }
 
-void Automate::pushState(State *s) {
+void Automata::pushState(State *s) {
     this->statestack.push_back(s);
 }
 
-State* Automate::getTopState() {
+State* Automata::getTopState() {
     return this->statestack.back();
 }
 
-Symbole* Automate::getTopSymbole() {
+Symbole* Automata::getTopSymbole() {
     return this->symbolstack.back();
 }
 
-const Lexer &Automate::getLexer() const {
+const Lexer &Automata::getLexer() const {
     return lexer;
 }
 
-void Automate::printSymbolStack() {
+void Automata::printSymbolStack() {
     for (Symbole* it : this->symbolstack){
         it->Affiche();
         cout << endl;
     }
 }
 
-void Automate::printStateStack() {
+void Automata::printStateStack() {
     for (State* it : this->statestack){
         it->print();
         cout << endl;
     }
 }
 
-bool Automate::isAccepter() const {
-    return accepter;
+bool Automata::isAccept() const {
+    return accept;
 }
 
-void Automate::setAccepter(bool accepter) {
-    Automate::accepter = accepter;
+void Automata::setAccept(bool newAccept) {
+    Automata::accept = newAccept;
 }

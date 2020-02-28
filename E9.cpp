@@ -4,7 +4,7 @@
 
 #include "E9.h"
 
-bool E9::transition(Automate &automate, Symbole *s){
+bool E9::transition(Automata &automate, Symbole *s){
     switch(*s){
         case PLUS:
         {

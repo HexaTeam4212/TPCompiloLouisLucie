@@ -5,7 +5,7 @@
 #include "E8.h"
 #include "E5.h"
 
-bool E8::transition(Automate &automate, Symbole *s){
+bool E8::transition(Automata &automate, Symbole *s){
     switch(*s){
         case PLUS:
         {

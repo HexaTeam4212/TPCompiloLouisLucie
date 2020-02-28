@@ -7,7 +7,7 @@
 #include "E7.h"
 #include "E2.h"
 
-bool E4::transition(Automate &automate, Symbole *s){
+bool E4::transition(Automata &automate, Symbole *s){
     switch(*s){
         case INT:
             automate.decalage(s, new E3);

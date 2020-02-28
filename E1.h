@@ -5,14 +5,14 @@
 #ifndef TP_E1_H
 #define TP_E1_H
 
-#include "automate.h"
+#include "Automata.h"
 using namespace std;
 
 class E1 : public State {
 
 public:
     void print() const override;
-    bool transition(Automate &automate, Symbole *s) override;
+    bool transition(Automata &automate, Symbole *s) override;
 };
 
 
