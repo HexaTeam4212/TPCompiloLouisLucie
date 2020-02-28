@@ -1,4 +1,4 @@
-CPPFLAGS = -std=gnu++11 -pedantic -Wall -Wextra -ansi -g
+CPPFLAGS = -std=c++11 -pedantic -Wall -Wextra -ansi -g
 MAPFLAG = 
 
 EXEC = 	gramlang
