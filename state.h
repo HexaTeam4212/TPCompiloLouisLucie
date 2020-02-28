@@ -24,5 +24,11 @@ protected:
     string name;
 };
 
+class E0: public State {
+public:
+    void print() const override;
+    bool transition(Automate &automate, Symbole *s) override ;
+};
+
 
 #endif //TP_STATE_H

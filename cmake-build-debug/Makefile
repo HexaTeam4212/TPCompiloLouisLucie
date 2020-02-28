@@ -49,10 +49,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\ShareLinux\Gram
+CMAKE_SOURCE_DIR = "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\ShareLinux\Gram\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\ShareLinux\Gram\cmake-build-debug\CMakeFiles C:\ShareLinux\Gram\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\ShareLinux\Gram\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,33 +123,6 @@ TP: cmake_check_build_system
 TP\fast:
 	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\build
 .PHONY : TP\fast
-
-Automate.obj: Automate.cpp.obj
-
-.PHONY : Automate.obj
-
-# target to build an object file
-Automate.cpp.obj:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\Automate.cpp.obj
-.PHONY : Automate.cpp.obj
-
-Automate.i: Automate.cpp.i
-
-.PHONY : Automate.i
-
-# target to preprocess a source file
-Automate.cpp.i:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\Automate.cpp.i
-.PHONY : Automate.cpp.i
-
-Automate.s: Automate.cpp.s
-
-.PHONY : Automate.s
-
-# target to generate assembly for a file
-Automate.cpp.s:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\Automate.cpp.s
-.PHONY : Automate.cpp.s
 
 E0.obj: E0.cpp.obj
 
@@ -421,87 +394,6 @@ E9.cpp.s:
 	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\E9.cpp.s
 .PHONY : E9.cpp.s
 
-ExprMult.obj: ExprMult.cpp.obj
-
-.PHONY : ExprMult.obj
-
-# target to build an object file
-ExprMult.cpp.obj:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\ExprMult.cpp.obj
-.PHONY : ExprMult.cpp.obj
-
-ExprMult.i: ExprMult.cpp.i
-
-.PHONY : ExprMult.i
-
-# target to preprocess a source file
-ExprMult.cpp.i:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\ExprMult.cpp.i
-.PHONY : ExprMult.cpp.i
-
-ExprMult.s: ExprMult.cpp.s
-
-.PHONY : ExprMult.s
-
-# target to generate assembly for a file
-ExprMult.cpp.s:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\ExprMult.cpp.s
-.PHONY : ExprMult.cpp.s
-
-ExprPar.obj: ExprPar.cpp.obj
-
-.PHONY : ExprPar.obj
-
-# target to build an object file
-ExprPar.cpp.obj:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\ExprPar.cpp.obj
-.PHONY : ExprPar.cpp.obj
-
-ExprPar.i: ExprPar.cpp.i
-
-.PHONY : ExprPar.i
-
-# target to preprocess a source file
-ExprPar.cpp.i:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\ExprPar.cpp.i
-.PHONY : ExprPar.cpp.i
-
-ExprPar.s: ExprPar.cpp.s
-
-.PHONY : ExprPar.s
-
-# target to generate assembly for a file
-ExprPar.cpp.s:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\ExprPar.cpp.s
-.PHONY : ExprPar.cpp.s
-
-ExprPlus.obj: ExprPlus.cpp.obj
-
-.PHONY : ExprPlus.obj
-
-# target to build an object file
-ExprPlus.cpp.obj:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\ExprPlus.cpp.obj
-.PHONY : ExprPlus.cpp.obj
-
-ExprPlus.i: ExprPlus.cpp.i
-
-.PHONY : ExprPlus.i
-
-# target to preprocess a source file
-ExprPlus.cpp.i:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\ExprPlus.cpp.i
-.PHONY : ExprPlus.cpp.i
-
-ExprPlus.s: ExprPlus.cpp.s
-
-.PHONY : ExprPlus.s
-
-# target to generate assembly for a file
-ExprPlus.cpp.s:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\ExprPlus.cpp.s
-.PHONY : ExprPlus.cpp.s
-
 ExprVal.obj: ExprVal.cpp.obj
 
 .PHONY : ExprVal.obj
@@ -556,59 +448,113 @@ Expression.cpp.s:
 	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\Expression.cpp.s
 .PHONY : Expression.cpp.s
 
-State.obj: State.cpp.obj
+automate.obj: automate.cpp.obj
 
-.PHONY : State.obj
-
-# target to build an object file
-State.cpp.obj:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\State.cpp.obj
-.PHONY : State.cpp.obj
-
-State.i: State.cpp.i
-
-.PHONY : State.i
-
-# target to preprocess a source file
-State.cpp.i:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\State.cpp.i
-.PHONY : State.cpp.i
-
-State.s: State.cpp.s
-
-.PHONY : State.s
-
-# target to generate assembly for a file
-State.cpp.s:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\State.cpp.s
-.PHONY : State.cpp.s
-
-Symbole.obj: Symbole.cpp.obj
-
-.PHONY : Symbole.obj
+.PHONY : automate.obj
 
 # target to build an object file
-Symbole.cpp.obj:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\Symbole.cpp.obj
-.PHONY : Symbole.cpp.obj
+automate.cpp.obj:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\automate.cpp.obj
+.PHONY : automate.cpp.obj
 
-Symbole.i: Symbole.cpp.i
+automate.i: automate.cpp.i
 
-.PHONY : Symbole.i
+.PHONY : automate.i
 
 # target to preprocess a source file
-Symbole.cpp.i:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\Symbole.cpp.i
-.PHONY : Symbole.cpp.i
+automate.cpp.i:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\automate.cpp.i
+.PHONY : automate.cpp.i
 
-Symbole.s: Symbole.cpp.s
+automate.s: automate.cpp.s
 
-.PHONY : Symbole.s
+.PHONY : automate.s
 
 # target to generate assembly for a file
-Symbole.cpp.s:
-	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\Symbole.cpp.s
-.PHONY : Symbole.cpp.s
+automate.cpp.s:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\automate.cpp.s
+.PHONY : automate.cpp.s
+
+exprPar.obj: exprPar.cpp.obj
+
+.PHONY : exprPar.obj
+
+# target to build an object file
+exprPar.cpp.obj:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\exprPar.cpp.obj
+.PHONY : exprPar.cpp.obj
+
+exprPar.i: exprPar.cpp.i
+
+.PHONY : exprPar.i
+
+# target to preprocess a source file
+exprPar.cpp.i:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\exprPar.cpp.i
+.PHONY : exprPar.cpp.i
+
+exprPar.s: exprPar.cpp.s
+
+.PHONY : exprPar.s
+
+# target to generate assembly for a file
+exprPar.cpp.s:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\exprPar.cpp.s
+.PHONY : exprPar.cpp.s
+
+exprmult.obj: exprmult.cpp.obj
+
+.PHONY : exprmult.obj
+
+# target to build an object file
+exprmult.cpp.obj:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\exprmult.cpp.obj
+.PHONY : exprmult.cpp.obj
+
+exprmult.i: exprmult.cpp.i
+
+.PHONY : exprmult.i
+
+# target to preprocess a source file
+exprmult.cpp.i:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\exprmult.cpp.i
+.PHONY : exprmult.cpp.i
+
+exprmult.s: exprmult.cpp.s
+
+.PHONY : exprmult.s
+
+# target to generate assembly for a file
+exprmult.cpp.s:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\exprmult.cpp.s
+.PHONY : exprmult.cpp.s
+
+exprplus.obj: exprplus.cpp.obj
+
+.PHONY : exprplus.obj
+
+# target to build an object file
+exprplus.cpp.obj:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\exprplus.cpp.obj
+.PHONY : exprplus.cpp.obj
+
+exprplus.i: exprplus.cpp.i
+
+.PHONY : exprplus.i
+
+# target to preprocess a source file
+exprplus.cpp.i:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\exprplus.cpp.i
+.PHONY : exprplus.cpp.i
+
+exprplus.s: exprplus.cpp.s
+
+.PHONY : exprplus.s
+
+# target to generate assembly for a file
+exprplus.cpp.s:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\exprplus.cpp.s
+.PHONY : exprplus.cpp.s
 
 lexer.obj: lexer.cpp.obj
 
@@ -664,6 +610,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+state.obj: state.cpp.obj
+
+.PHONY : state.obj
+
+# target to build an object file
+state.cpp.obj:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\state.cpp.obj
+.PHONY : state.cpp.obj
+
+state.i: state.cpp.i
+
+.PHONY : state.i
+
+# target to preprocess a source file
+state.cpp.i:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\state.cpp.i
+.PHONY : state.cpp.i
+
+state.s: state.cpp.s
+
+.PHONY : state.s
+
+# target to generate assembly for a file
+state.cpp.s:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\state.cpp.s
+.PHONY : state.cpp.s
+
+symbole.obj: symbole.cpp.obj
+
+.PHONY : symbole.obj
+
+# target to build an object file
+symbole.cpp.obj:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\symbole.cpp.obj
+.PHONY : symbole.cpp.obj
+
+symbole.i: symbole.cpp.i
+
+.PHONY : symbole.i
+
+# target to preprocess a source file
+symbole.cpp.i:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\symbole.cpp.i
+.PHONY : symbole.cpp.i
+
+symbole.s: symbole.cpp.s
+
+.PHONY : symbole.s
+
+# target to generate assembly for a file
+symbole.cpp.s:
+	$(MAKE) -f CMakeFiles\TP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TP.dir\symbole.cpp.s
+.PHONY : symbole.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -673,9 +673,6 @@ help:
 	@echo ... TP
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Automate.obj
-	@echo ... Automate.i
-	@echo ... Automate.s
 	@echo ... E0.obj
 	@echo ... E0.i
 	@echo ... E0.s
@@ -706,33 +703,36 @@ help:
 	@echo ... E9.obj
 	@echo ... E9.i
 	@echo ... E9.s
-	@echo ... ExprMult.obj
-	@echo ... ExprMult.i
-	@echo ... ExprMult.s
-	@echo ... ExprPar.obj
-	@echo ... ExprPar.i
-	@echo ... ExprPar.s
-	@echo ... ExprPlus.obj
-	@echo ... ExprPlus.i
-	@echo ... ExprPlus.s
 	@echo ... ExprVal.obj
 	@echo ... ExprVal.i
 	@echo ... ExprVal.s
 	@echo ... Expression.obj
 	@echo ... Expression.i
 	@echo ... Expression.s
-	@echo ... State.obj
-	@echo ... State.i
-	@echo ... State.s
-	@echo ... Symbole.obj
-	@echo ... Symbole.i
-	@echo ... Symbole.s
+	@echo ... automate.obj
+	@echo ... automate.i
+	@echo ... automate.s
+	@echo ... exprPar.obj
+	@echo ... exprPar.i
+	@echo ... exprPar.s
+	@echo ... exprmult.obj
+	@echo ... exprmult.i
+	@echo ... exprmult.s
+	@echo ... exprplus.obj
+	@echo ... exprplus.i
+	@echo ... exprplus.s
 	@echo ... lexer.obj
 	@echo ... lexer.i
 	@echo ... lexer.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... state.obj
+	@echo ... state.i
+	@echo ... state.s
+	@echo ... symbole.obj
+	@echo ... symbole.i
+	@echo ... symbole.s
 .PHONY : help
 
 

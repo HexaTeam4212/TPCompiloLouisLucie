@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/ShareLinux/Gram/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TP">
-				<Option output="C:/ShareLinux/Gram/cmake-build-debug/TP.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/ShareLinux/Gram/cmake-build-debug"/>
+				<Option output="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/cmake-build-debug/TP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -34,15 +34,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 TP"/>
-					<CompileFile command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 TP"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TP/fast">
-				<Option output="C:/ShareLinux/Gram/cmake-build-debug/TP.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/ShareLinux/Gram/cmake-build-debug"/>
+				<Option output="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/cmake-build-debug/TP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -57,151 +57,151 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 TP/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 TP/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/ShareLinux/Gram/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/ShareLinux/Gram/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\ShareLinux\Gram\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Louis Ung\Documents\Insa 4a\S2\GrammaireLangages\TPCompiloLouisLucie\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/ShareLinux/Gram/Automate.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E0.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/Automate.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E0.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E0.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E1.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E0.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E1.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E1.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E2.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E1.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E2.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E2.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E3.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E2.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E3.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E3.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E4.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E3.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E4.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E4.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E5.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E4.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E5.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E5.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E6.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E5.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E6.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E6.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E7.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E6.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E7.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E7.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E8.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E7.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E8.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E8.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E9.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E8.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/E9.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E9.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/ExprVal.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/E9.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/ExprVal.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/ExprMult.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Expression.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/ExprMult.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/Expression.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/ExprPar.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/automate.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/ExprPar.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/automate.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/ExprPlus.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/exprPar.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/ExprPlus.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/exprPar.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/ExprVal.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/exprmult.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/ExprVal.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/exprmult.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/Expression.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/exprplus.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/Expression.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/exprplus.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/State.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/lexer.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/State.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/lexer.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/Symbole.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/main.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/Symbole.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/state.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/lexer.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/state.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/lexer.h">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/symbole.cpp">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/main.cpp">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/symbole.h">
 			<Option target="TP"/>
 		</Unit>
-		<Unit filename="C:/ShareLinux/Gram/CMakeLists.txt">
+		<Unit filename="C:/Users/Louis Ung/Documents/Insa 4a/S2/GrammaireLangages/TPCompiloLouisLucie/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

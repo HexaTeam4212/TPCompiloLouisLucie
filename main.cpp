@@ -6,12 +6,6 @@
 class Lexer;
 
 int main(void) {
-    //string chaine("(1+34)*123"); // TODO: remplacer par user input
-    //string chaine("(1+2)"); // TODO: remplacer par user input
-    //string chaine("1+34*123");
-//    string chaine("1+((34)*123)+(3+2)*((2))*(4+(7*5))");
-    //string chaine("((1))");
-    //string chaine("(7+5)*2");
     string chaine;
 
     cout << "Please enter an expresssion to evaluate" << endl;
